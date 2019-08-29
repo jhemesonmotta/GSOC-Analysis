@@ -1,4 +1,4 @@
-,company,developer,gender,gender2,project_url,title,type_developer,year,final_gender
+﻿,company,developer,gender,gender2,project_url,title,type_developer,year,final_gender
 0,PostgreSQL,Hongyuan Ma,male,male,https://github.com/PGPerfFarm/pgperffarm/issues/22,"""Develop Performance Farm Database and Website"" proposal for Google Summer of Code 2018 - 2018 - Google Summer of Code Archive",student,2018,male
 1,PostgreSQL,Mark Wong,male,male,https://github.com/PGPerfFarm/pgperffarm/issues/22,"""Develop Performance Farm Database and Website"" proposal for Google Summer of Code 2018 - 2018 - Google Summer of Code Archive",mentor,2018,male
 2,PostgreSQL,Stephen Frost,male,male,https://github.com/PGPerfFarm/pgperffarm/issues/22,"""Develop Performance Farm Database and Website"" proposal for Google Summer of Code 2018 - 2018 - Google Summer of Code Archive",mentor,2018,male
@@ -2112,8 +2112,8 @@
 2110,CiviCRM LLC,Joe McLaughlin,male,male,https://github.com/4ndygu/civicrm_osdi,Open Supporter Data Integration for CiviCRM - 2018 - Google Summer of Code Archive,mentor,2018,male
 2111,CiviCRM LLC,Jon G - Megaphone Tech,male,male,https://github.com/4ndygu/civicrm_osdi,Open Supporter Data Integration for CiviCRM - 2018 - Google Summer of Code Archive,mentor,2018,male
 2112,CiviCRM LLC,Jason Rosenbaum,male,male,https://github.com/4ndygu/civicrm_osdi,Open Supporter Data Integration for CiviCRM - 2018 - Google Summer of Code Archive,mentor,2018,male
-2113,FOSSASIA,Sridhar Jajoo,male,?,https://gist.github.com/sridharjajoo/72e414f64a1f71fd1d0aa95a7e5e948e,Open-event-orga-app - 2018 - Google Summer of Code Archive,student,2018,?
-2114,FOSSASIA,Mario Behling,male,?,https://gist.github.com/sridharjajoo/72e414f64a1f71fd1d0aa95a7e5e948e,Open-event-orga-app - 2018 - Google Summer of Code Archive,mentor,2018,?
+2113,FOSSASIA,Sridhar Jajoo,male,unknown,https://gist.github.com/sridharjajoo/72e414f64a1f71fd1d0aa95a7e5e948e,Open-event-orga-app - 2018 - Google Summer of Code Archive,student,2018,?
+2114,FOSSASIA,Mario Behling,male,unknown,https://gist.github.com/sridharjajoo/72e414f64a1f71fd1d0aa95a7e5e948e,Open-event-orga-app - 2018 - Google Summer of Code Archive,mentor,2018,?
 2115,FOSSASIA,Arnav Gupta,male,male,https://gist.github.com/sridharjajoo/72e414f64a1f71fd1d0aa95a7e5e948e,Open-event-orga-app - 2018 - Google Summer of Code Archive,mentor,2018,male
 2116,FOSSASIA,Areeb Jamal,male,male,https://gist.github.com/sridharjajoo/72e414f64a1f71fd1d0aa95a7e5e948e,Open-event-orga-app - 2018 - Google Summer of Code Archive,mentor,2018,male
 2117,FOSSASIA,Niranjan Rajendran,male,male,https://gist.github.com/sridharjajoo/72e414f64a1f71fd1d0aa95a7e5e948e,Open-event-orga-app - 2018 - Google Summer of Code Archive,mentor,2018,male

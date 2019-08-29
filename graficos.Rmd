@@ -18,6 +18,11 @@ library(ggplot2)
 
 ```{r}
 gsoc_data <- read.csv(file="df_commiters_fullname_gsoc.csv", header=TRUE, sep=",")
+
+# atribuindo variavel gender2 para gender
+gsoc_data <- gsoc_data %>%
+  mutate(gender = gender2)
+
 ```
 
 ## Gráficos:
@@ -25,7 +30,8 @@ gsoc_data <- read.csv(file="df_commiters_fullname_gsoc.csv", header=TRUE, sep=",
 #### Quantidade de Participantes por Ano com Diferenciação de sexo:
 
 ```{r}
-qplot(x = year, fill = gender2, data = gsoc_data, binwidth = 1)
+qplot(x = year, fill = gender, data = gsoc_data, binwidth = 1, xlab="Year", ylab="Number of People")
+
 ```
 
 #### Quantidade de Participantes do Sexo Feminino por Ano:
@@ -34,94 +40,97 @@ Selecionar apenas mulheres.
 
 ```{r}
 mulheres <- gsoc_data %>%
-  filter(gender2 == "female")
+  filter(gender == "female")
 ```
 
 ```{r}
-qplot(x = year, data = mulheres, binwidth = 1)
+qplot(x = year, data = mulheres, binwidth = 1, xlab="Year", ylab="Number of Women") 
 ```
 
 #### Quantidade de Mentores do Sexo Feminino por Ano:
 ```{r}
 mulheres <- gsoc_data %>%
-  filter(gender2 == "female" & type_developer == "mentor")
+  filter(gender == "female" & type_developer == "mentor")
 ```
 
 ```{r}
-qplot(x = year, data = mulheres, binwidth = 1)
+qplot(x = year, data = mulheres, binwidth = 1, xlab="Year", ylab="Number of Female Mentors")
 ```
 
 #### Quantidade de Estudantes do Sexo Feminino por Ano:
 ```{r}
 mulheres <- gsoc_data %>%
-  filter(gender2 == "female" & type_developer == "student")
+  filter(gender == "female" & type_developer == "student")
 ```
 
 ```{r}
-qplot(x = year, data = mulheres, binwidth = 1)
+qplot(x = year, data = mulheres, binwidth = 1, xlab="Year", ylab="Number of Female Students")
 ```
 
 #### Porcentagem de participantes 2016:
 
 ```{r}
-pctMulheres1 = (nrow(gsoc_data %>% filter(year == "2016" & gender2=="female")) / nrow(gsoc_data %>% filter(year == "2016"))) * 100
+pctMulheres1 = (nrow(gsoc_data %>% filter(year == "2016" & gender=="female")) / nrow(gsoc_data %>% filter(year == "2016"))) * 100
 
 pctMulheres1
 ```
 
 ```{r}
-pctHomens = (nrow(gsoc_data %>% filter(year == "2016" & gender2=="male")) / nrow(gsoc_data %>% filter(year == "2016"))) * 100
+pctHomens = (nrow(gsoc_data %>% filter(year == "2016" & gender=="male")) / nrow(gsoc_data %>% filter(year == "2016"))) * 100
 
 pctHomens
 ```
 
 ```{r}
-listavalores <- c(pctHomens, pctMulheres1)
-listalabels <- c("Homens", "Mulheres")
+library(RColorBrewer)
+myPalette <- brewer.pal(5, "Set2") 
 
-pie(listavalores, listalabels, col = rainbow(length(listavalores)))
+listavalores <- c(pctHomens, pctMulheres1)
+listalabels <- c("Men", "Women")
+
+pie(listavalores, listalabels, border="white", col=myPalette)
 ```
 
 #### Porcentagem de participantes 2017:
 
 ```{r}
-pctMulheres2 = (nrow(gsoc_data %>% filter(year == "2017" & gender2=="female")) / nrow(gsoc_data %>% filter(year == "2017"))) * 100
+pctMulheres2 = (nrow(gsoc_data %>% filter(year == "2017" & gender=="female")) / nrow(gsoc_data %>% filter(year == "2017"))) * 100
 
 pctMulheres2
 ```
 
 ```{r}
-pctHomens = (nrow(gsoc_data %>% filter(year == "2017" & gender2=="male")) / nrow(gsoc_data %>% filter(year == "2017"))) * 100
+pctHomens = (nrow(gsoc_data %>% filter(year == "2017" & gender=="male")) / nrow(gsoc_data %>% filter(year == "2017"))) * 100
 
 pctHomens
 ```
 
 ```{r}
 listavalores <- c(pctHomens, pctMulheres2)
-listalabels <- c("Homens", "Mulheres")
+listalabels <- c("Men", "Women")
 
-pie(listavalores, listalabels, col = rainbow(length(listavalores)))
+pie(listavalores, listalabels)
 ```
 
 #### Porcentagem de participantes 2018:
 
 ```{r}
-pctMulheres3 = (nrow(gsoc_data %>% filter(year == "2018" & gender2=="female")) / nrow(gsoc_data %>% filter(year == "2018"))) * 100
+pctMulheres3 = (nrow(gsoc_data %>% filter(year == "2018" & gender=="female")) / nrow(gsoc_data %>% filter(year == "2018"))) * 100
 
 pctMulheres3
 ```
 
 ```{r}
-pctHomens = (nrow(gsoc_data %>% filter(year == "2018" & gender2=="male")) / nrow(gsoc_data %>% filter(year == "2018"))) * 100
+pctHomens = (nrow(gsoc_data %>% filter(year == "2018" & gender=="male")) / nrow(gsoc_data %>% filter(year == "2018"))) * 100
 
 pctHomens
 ```
 
 ```{r}
 listavalores <- c(pctHomens, pctMulheres3)
-listalabels <- c("Homens", "Mulheres")
+listalabels <- c("Men", "Women")
 
-pie(listavalores, listalabels, col = rainbow(length(listavalores)))
+pie(listavalores, listalabels)
 ```
 
 
@@ -133,6 +142,6 @@ anos <- c(2016 , 2017, 2018)
 
 porcentagemMulheresPorAno <- data.frame(porcentagemMulheres,anos)
 
-qplot(x = anos, y = porcentagemMulheres, data = porcentagemMulheresPorAno, geom = "line")
+qplot(x = anos, y = porcentagemMulheres, data = porcentagemMulheresPorAno, geom = "line", xlab="Year", ylab="Women Percentage")
 ```
 
