@@ -1,11 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 from bs4 import BeautifulSoup
-#import urllib.request
 import re
 import requests
 import pandas as pd
@@ -21,8 +17,8 @@ file_csv = 'gsoc_.csv'
 
 
 session = requests.session()
-#years = ['2018', '2017', '2016']
-years = ['2016'] # so pra testar
+years = ['2016']
+
 
 # In[3]:
 
@@ -41,8 +37,9 @@ def get_num_pages(url):
 # In[4]:
 
 
-def get_projects_urls(year):
+def get_procject_urls(year):
     
+    #counter = 0 
     list_link_project = []
     url_master_gsof_ = 'https://summerofcode.withgoogle.com/archive/' + year + '/projects/'
     num_pages = get_num_pages(url_master_gsof_)
@@ -70,22 +67,19 @@ def get_projects_urls(year):
 
 def get_specific_project_data(year,url_specific_project):
     line = []
-    global df_projects 
+    global df_projects
     specific_project_page = session.get(url_specific_project)
     page_specific_project = (BeautifulSoup(specific_project_page.content, 'html.parser'))
     card_specific_project = page_specific_project.find('md-card')
     html_card_specific_project = (BeautifulSoup(str(card_specific_project), 'html.parser'))
     
     company = html_card_specific_project.find("a")["aria-label"]
+    company_website = html_card_specific_project.find("a")["href"]
+    
     student_name = re.findall('<h4 class="org__meta-heading">Student</h4>\n<div>(.*)</div>',str(card_specific_project),re.MULTILINE)
     github_project_url = html_card_specific_project.find("a", {"class": "md-button md-primary"})["href"]
     project_name = page_specific_project.find('title').get_text()
-
-    # Essa url sera consumida em outro metodo para buscarmos as linguagens e topicos dos projetos.
-    company_page_url = html_card_specific_project.find("a")["href"]
-
-
-
+    
     line.append(year)
     line.append(company)
     
@@ -93,48 +87,68 @@ def get_specific_project_data(year,url_specific_project):
     line.append(project_name)
     line.append('student')
     line.append(github_project_url)
+    
+    technology_and_topic = get_technologies_and_topics(company_website)
+    
+    line.append(technology_and_topic[0])
+    line.append(technology_and_topic[1])
 
     print(line)
     
     df_projects = df_projects.append(pd.Series(line, index=None ), ignore_index=True)
-    #df_projects.append(line)
+
+    
     list_mentors = html_card_specific_project.findAll("li")
     for mentor in list_mentors:
         line = []
         line.append(year)
         line.append(company)
         
-        #print(company + ';' + github_project_url + ';' + mentor.get_text())
         line.append(mentor.get_text())
         line.append(project_name)
         line.append('mentor')
         line.append(github_project_url)
+        line.append(technology_and_topic[0])
+        line.append(technology_and_topic[1])
+
         print(line)
         df_projects = df_projects.append(pd.Series(line, index=None ), ignore_index=True)
     return df_projects
-        #df = df_projects.append(pd.DataFrame(line, columns=None),ignore_index=True)
-        #df_projects.append(line)
-    
-    
-    
-
 
 # In[6]:
 
 
+def get_technologies_and_topics(company_link):
+    line = []
+
+    specific_company_page = session.get('https://summerofcode.withgoogle.com' + company_link)
+    page_specific_object = (BeautifulSoup(specific_company_page.content, 'html.parser'))
+    card_specific_text = page_specific_object.find('md-card')
+    html_card_specific_object = (BeautifulSoup(str(card_specific_text), 'html.parser'))
+    main_tecnology_html = html_card_specific_object.findAll("li", {"class": "organization__tag organization__tag--technology"})
+    main_tecnology = (main_tecnology_html[0]).get_text()
+    main_topic_html = html_card_specific_object.findAll("li", {"class": "organization__tag organization__tag--topic"})
+    main_topic = (main_topic_html[0]).get_text()
+
+    line.append(main_tecnology)
+    line.append(main_topic)
+
+    return line
+
+# In[7]:
+
 df_projects = pd.DataFrame(index=None)
 for year in years:
-    project_urls = get_projects_urls(year)
-    for link in project_urls:
+    links_projects = get_procject_urls(year)
+    for link in links_projects:
         get_specific_project_data(year,link)
+
+#get_technologies_and_topics('/2017/organizations/6565611412914176/')
 
 # In[8]:
 
-
 df_projects.to_csv(file_csv,index=False)
 
-
-# In[ ]:
 
 
 
