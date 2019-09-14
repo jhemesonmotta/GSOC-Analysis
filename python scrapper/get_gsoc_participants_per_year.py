@@ -41,9 +41,8 @@ def get_num_pages(url):
 # In[4]:
 
 
-def get_links_projects(year):
+def get_projects_urls(year):
     
-    #counter = 0 
     list_link_project = []
     url_master_gsof_ = 'https://summerofcode.withgoogle.com/archive/' + year + '/projects/'
     num_pages = get_num_pages(url_master_gsof_)
@@ -62,10 +61,7 @@ def get_links_projects(year):
         for i in list_projects_master:
             i = i.find('a', href=True)['href']
             url_project_specific = str(url_archive) + str(i)
-            #print(url_project_specific)
             list_link_project.append(url_project_specific)
-            #counter = counter + 1
-            #print (str(num) + '-' + str(counter))
     return list_link_project
 
 
@@ -75,8 +71,6 @@ def get_links_projects(year):
 def get_specific_project_data(year,url_specific_project):
     line = []
     global df_projects 
-    #df_projects = pd.DataFrame(index=None)
-    #global specific_project_page
     specific_project_page = session.get(url_specific_project)
     page_specific_project = (BeautifulSoup(specific_project_page.content, 'html.parser'))
     card_specific_project = page_specific_project.find('md-card')
@@ -86,7 +80,12 @@ def get_specific_project_data(year,url_specific_project):
     student_name = re.findall('<h4 class="org__meta-heading">Student</h4>\n<div>(.*)</div>',str(card_specific_project),re.MULTILINE)
     github_project_url = html_card_specific_project.find("a", {"class": "md-button md-primary"})["href"]
     project_name = page_specific_project.find('title').get_text()
-    
+
+    # Essa url sera consumida em outro metodo para buscarmos as linguagens e topicos dos projetos.
+    company_page_url = html_card_specific_project.find("a")["href"]
+
+
+
     line.append(year)
     line.append(company)
     
@@ -94,7 +93,9 @@ def get_specific_project_data(year,url_specific_project):
     line.append(project_name)
     line.append('student')
     line.append(github_project_url)
+
     print(line)
+    
     df_projects = df_projects.append(pd.Series(line, index=None ), ignore_index=True)
     #df_projects.append(line)
     list_mentors = html_card_specific_project.findAll("li")
@@ -123,10 +124,9 @@ def get_specific_project_data(year,url_specific_project):
 
 df_projects = pd.DataFrame(index=None)
 for year in years:
-    links_projects = get_links_projects(year)
-    for link in links_projects:
+    project_urls = get_projects_urls(year)
+    for link in project_urls:
         get_specific_project_data(year,link)
-
 
 # In[8]:
 
