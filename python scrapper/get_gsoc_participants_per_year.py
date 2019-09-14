@@ -14,15 +14,15 @@ import pandas as pd
 # In[9]:
 
 
-file_csv = '/tmp/gsoc_.csv'
+file_csv = 'gsoc_.csv'
 
 
 # In[2]:
 
 
 session = requests.session()
-years = ['2018', '2017', '2016']
-
+#years = ['2018', '2017', '2016']
+years = ['2016'] # so pra testar
 
 # In[3]:
 
