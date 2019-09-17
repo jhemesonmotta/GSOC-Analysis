@@ -95,7 +95,7 @@ def get_specific_project_data(year,url_specific_project):
 
     print(line)
     
-    df_projects = df_projects.append(pd.Series(line, index=None ), ignore_index=True)
+    df_projects = df_projects.append(pd.Series(line, index=None), ignore_index=True)
 
     
     list_mentors = html_card_specific_project.findAll("li")

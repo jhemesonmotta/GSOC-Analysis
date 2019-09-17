@@ -6,3 +6,4 @@ Doing some analysis over GSOC database.
 #### * pip install bs4
 #### * pip install requests
 #### * pip install pandas
+#### * pip install requests
