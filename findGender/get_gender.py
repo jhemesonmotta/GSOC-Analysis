@@ -8,40 +8,39 @@ genders = []
 global genders_tb
 genders_tb = pd.DataFrame(index=None)
 
-with open('test.csv',encoding='utf8',errors='ignore') as csv_file:
+with open('gsoc_tratado_slot_3.csv',encoding='utf8',errors='ignore') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     line_count = 0
     for row in csv_reader:
         try:
-            if line_count < 3:
+            nome = "a"
+            sobrenome = "a"
+
+            try:
+                nome = row[2].split(' ')[0]
+            except Exception as e:
+                print(e)
+            
+            try:
+                sobrenome = row[2].split(' ')[1]
+            except Exception as e:
+                print(e)
+            
+            if nome == "" :
                 nome = "a"
+            if sobrenome == "":
                 sobrenome = "a"
 
-                try:
-                    nome = row[2].split(' ')[0]
-                except Exception as e:
-                    print(e)
-                
-                try:
-                    sobrenome = row[2].split(' ')[1]
-                except Exception as e:
-                    print(e)
-                
-                if nome == "" :
-                    nome = "a"
-                if sobrenome == "":
-                    sobrenome = "a"
+            url_temp = URL + nome + "/" + sobrenome
 
-                url_temp = URL + nome + "/" + sobrenome
+            requestData = requests.get(url = url_temp)
+            data = requestData.json()
+            genders.append(data["gender"])
+            genders_tb = genders_tb.append(pd.Series(data["gender"], index=None), ignore_index=True)
 
-                requestData = requests.get(url = url_temp)
-                data = requestData.json()
-                genders.append(data["gender"])
-                genders_tb = genders_tb.append(pd.Series(data["gender"], index=None), ignore_index=True)
-
-                print(data)
-                print(data["gender"])
-                print(line_count)
+            print(data)
+            print(data["gender"])
+            print(line_count)
         except Exception as e:
             print(e)
         line_count += 1
