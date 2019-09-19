@@ -141,3 +141,32 @@ porcentagemMulheresPorAno <- data.frame(porcentagemMulheres,anos)
 qplot(x = anos, y = porcentagemMulheres, data = porcentagemMulheresPorAno, geom = "line", xlab="Year", ylab="Women Percentage")
 ```
 
+#### Comparação de Mentores e Estudantes
+
+```{r}
+qtdMentores = (nrow(gsoc_data %>% filter(Person.Type == "mentor")))
+qtdEstudantes = (nrow(gsoc_data %>% filter(Person.Type == "student")))
+
+qtdMentores
+qtdEstudantes
+```
+
+```{r}
+listavalores <- c(qtdMentores, qtdEstudantes)
+listalabels <- c("Mentors", "Students")
+
+
+pie(listavalores, listalabels, border="white", col=myPalette)
+```
+#### Comparação de Gêneros de Mentores
+```{r}
+pctMulheresMentoras = (nrow(gsoc_data %>% filter(Person.Type == "mentor" & Gender=="female")) / nrow(gsoc_data %>% filter(Gender == "female"))) * 100
+
+pctHomensMentores = (nrow(gsoc_data %>% filter(Person.Type == "mentor" & Gender == "male")) / nrow(gsoc_data %>% filter(Gender == "male"))) * 100
+
+
+pctMulheresMentoras
+pctHomensMentores
+```
+
+#### Comparação de Gêneros de Estudantes
