@@ -169,4 +169,35 @@ pctMulheresMentoras
 pctHomensMentores
 ```
 
-#### Comparação de Gêneros de Estudantes
+#### Frequência absoluta das tecnologias
+```{r}
+barplot(tecnologias.tb, las=2)
+```
+
+#### gráfico das 5 tecnologias mais utilizadas
+```{r}
+tecnologias.tb <- sort(tecnologias.tb)
+
+barplot(tail(tecnologias.tb, 5), las=2, cex.names=0.8)
+```
+
+
+#### Frequência absoluta dos tópicos
+```{r}
+topicos.tb <- table(gsoc_data$Topic)
+```
+
+#### gráfico dos 20 tópicos mais frequentes
+```{r}
+topicos.tb <- sort(topicos.tb)
+
+barplot(tail(topicos.tb, 20), las=2, cex.names=0.5)
+```
+
+#### gráfico dos 5 tópicos mais frequentes
+```{r}
+topicos.tb <- sort(topicos.tb)
+
+barplot(tail(topicos.tb, 5), las=1, cex.names=0.9)
+```
+
