@@ -171,6 +171,8 @@ pctHomensMentores
 
 #### Frequência absoluta das tecnologias
 ```{r}
+tecnologias.tb <- table(gsoc_data$Technology)
+
 barplot(tecnologias.tb, las=2)
 ```
 
@@ -185,6 +187,7 @@ barplot(tail(tecnologias.tb, 5), las=2, cex.names=0.8)
 #### Frequência absoluta dos tópicos
 ```{r}
 topicos.tb <- table(gsoc_data$Topic)
+barplot(topicos.tb, las=2)
 ```
 
 #### gráfico dos 20 tópicos mais frequentes
@@ -198,6 +201,6 @@ barplot(tail(topicos.tb, 20), las=2, cex.names=0.5)
 ```{r}
 topicos.tb <- sort(topicos.tb)
 
-barplot(tail(topicos.tb, 5), las=1, cex.names=0.9)
+barplot(tail(topicos.tb, 5), las=1, cex.names=0.8)
 ```
 
