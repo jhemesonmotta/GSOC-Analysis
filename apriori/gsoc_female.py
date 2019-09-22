@@ -23,4 +23,10 @@ resultadoFormatado = []
 for j in range(0,40):
     resultadoFormatado.append([list(x) for x in resultados2[j][2]])
     
+for z in range (0,40):
+    print("\n")
+    print("\n")
+    print(resultadoFormatado[z])
+    print("\n")
+    print("\n")
 resultadoFormatado
