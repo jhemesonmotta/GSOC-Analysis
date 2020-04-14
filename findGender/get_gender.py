@@ -3,12 +3,12 @@ import csv
 import pandas as pd
 
 # api-endpoint
-URL = "https://api.namsor.com/onomastics/api/json/gender/"
+URL = "http://api.namsor.com/onomastics/api/json/gender/"
 genders = []
 global genders_tb
 genders_tb = pd.DataFrame(index=None)
 
-with open('gsoc_tratado_slot_3.csv',encoding='utf8',errors='ignore') as csv_file:
+with open('gsoc_2019.csv',encoding='utf8',errors='ignore') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     line_count = 0
     for row in csv_reader:
