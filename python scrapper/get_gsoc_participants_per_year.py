@@ -10,14 +10,14 @@ import pandas as pd
 # In[9]:
 
 
-file_csv = 'gsoc_.csv'
+file_csv = 'gsoc_2019.csv'
 
 
 # In[2]:
 
 
 session = requests.session()
-years = ['2016']
+years = ['2019']
 
 
 # In[3]:
@@ -142,8 +142,6 @@ for year in years:
     links_projects = get_procject_urls(year)
     for link in links_projects:
         get_specific_project_data(year,link)
-
-#get_technologies_and_topics('/2017/organizations/6565611412914176/')
 
 # In[8]:
 
