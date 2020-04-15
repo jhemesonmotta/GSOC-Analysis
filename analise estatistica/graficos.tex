@@ -1,0 +1,504 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Obversações GSOC},
+  pdfauthor={Jhemeson Silva Mota},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\title{Obversações GSOC}
+\author{Jhemeson Silva Mota}
+\date{18 de Setembro de 2019}
+
+\begin{document}
+\maketitle
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Carrega os dados do CSV para o DataFrame:}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{gsoc_data <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\DataTypeTok{file=}\StringTok{"gsoc_data.csv"}\NormalTok{, }\DataTypeTok{header=}\OtherTok{TRUE}\NormalTok{, }\DataTypeTok{sep=}\StringTok{","}\NormalTok{)}
+\NormalTok{myPalette <-}\StringTok{ }\KeywordTok{brewer.pal}\NormalTok{(}\DecValTok{5}\NormalTok{, }\StringTok{"Set2"}\NormalTok{) }
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{gruxe1ficos}{%
+\subsection{Gráficos:}\label{gruxe1ficos}}
+
+\hypertarget{quantidade-de-participantes-por-ano-com-diferenciauxe7uxe3o-de-sexo}{%
+\paragraph{Quantidade de Participantes por Ano com Diferenciação de
+sexo:}\label{quantidade-de-participantes-por-ano-com-diferenciauxe7uxe3o-de-sexo}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{qplot}\NormalTok{(}\DataTypeTok{x =}\NormalTok{ Year, }\DataTypeTok{fill =}\NormalTok{ Gender, }\DataTypeTok{data =}\NormalTok{ gsoc_data, }\DataTypeTok{binwidth =} \DecValTok{1}\NormalTok{, }\DataTypeTok{xlab=}\StringTok{"Year"}\NormalTok{, }\DataTypeTok{ylab=}\StringTok{"Number of People"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{graficos_files/figure-latex/unnamed-chunk-2-1.pdf}
+
+\hypertarget{quantidade-de-participantes-do-sexo-feminino-por-ano}{%
+\paragraph{Quantidade de Participantes do Sexo Feminino por
+Ano:}\label{quantidade-de-participantes-do-sexo-feminino-por-ano}}
+
+Selecionar apenas mulheres.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{mulheres <-}\StringTok{ }\NormalTok{gsoc_data }\OperatorTok{%>%}
+\StringTok{  }\KeywordTok{filter}\NormalTok{(Gender }\OperatorTok{==}\StringTok{ "female"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{qplot}\NormalTok{(}\DataTypeTok{x =}\NormalTok{ Year, }\DataTypeTok{data =}\NormalTok{ mulheres, }\DataTypeTok{binwidth =} \DecValTok{1}\NormalTok{, }\DataTypeTok{xlab=}\StringTok{"Year"}\NormalTok{, }\DataTypeTok{ylab=}\StringTok{"Number of Women"}\NormalTok{) }
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{graficos_files/figure-latex/unnamed-chunk-4-1.pdf}
+
+\hypertarget{quantidade-de-mentores-do-sexo-feminino-por-ano}{%
+\paragraph{Quantidade de Mentores do Sexo Feminino por
+Ano:}\label{quantidade-de-mentores-do-sexo-feminino-por-ano}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{mulheres <-}\StringTok{ }\NormalTok{gsoc_data }\OperatorTok{%>%}
+\StringTok{  }\KeywordTok{filter}\NormalTok{(Gender }\OperatorTok{==}\StringTok{ "female"} \OperatorTok{&}\StringTok{ }\NormalTok{Person.Type }\OperatorTok{==}\StringTok{ "mentor"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{qplot}\NormalTok{(}\DataTypeTok{x =}\NormalTok{ Year, }\DataTypeTok{data =}\NormalTok{ mulheres, }\DataTypeTok{binwidth =} \DecValTok{1}\NormalTok{, }\DataTypeTok{xlab=}\StringTok{"Year"}\NormalTok{, }\DataTypeTok{ylab=}\StringTok{"Number of Female Mentors"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{graficos_files/figure-latex/unnamed-chunk-6-1.pdf}
+
+\hypertarget{quantidade-de-estudantes-do-sexo-feminino-por-ano}{%
+\paragraph{Quantidade de Estudantes do Sexo Feminino por
+Ano:}\label{quantidade-de-estudantes-do-sexo-feminino-por-ano}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{mulheres <-}\StringTok{ }\NormalTok{gsoc_data }\OperatorTok{%>%}
+\StringTok{  }\KeywordTok{filter}\NormalTok{(Gender }\OperatorTok{==}\StringTok{ "female"} \OperatorTok{&}\StringTok{ }\NormalTok{Person.Type }\OperatorTok{==}\StringTok{ "student"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{qplot}\NormalTok{(}\DataTypeTok{x =}\NormalTok{ Year, }\DataTypeTok{data =}\NormalTok{ mulheres, }\DataTypeTok{binwidth =} \DecValTok{1}\NormalTok{, }\DataTypeTok{xlab=}\StringTok{"Year"}\NormalTok{, }\DataTypeTok{ylab=}\StringTok{"Number of Female Students"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{graficos_files/figure-latex/unnamed-chunk-8-1.pdf}
+
+\hypertarget{porcentagem-de-participantes-2016}{%
+\paragraph{Porcentagem de participantes
+2016:}\label{porcentagem-de-participantes-2016}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{pctMulheres1 =}\StringTok{ }\NormalTok{(}\KeywordTok{nrow}\NormalTok{(gsoc_data }\OperatorTok{%>%}\StringTok{ }\KeywordTok{filter}\NormalTok{(Year }\OperatorTok{==}\StringTok{ "2016"} \OperatorTok{&}\StringTok{ }\NormalTok{Gender}\OperatorTok{==}\StringTok{"female"}\NormalTok{)) }\OperatorTok{/}\StringTok{ }\KeywordTok{nrow}\NormalTok{(gsoc_data }\OperatorTok{%>%}\StringTok{ }\KeywordTok{filter}\NormalTok{(Year }\OperatorTok{==}\StringTok{ "2016"}\NormalTok{))) }\OperatorTok{*}\StringTok{ }\DecValTok{100}
+
+\NormalTok{pctMulheres1}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 42.16618
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{pctHomens =}\StringTok{ }\NormalTok{(}\KeywordTok{nrow}\NormalTok{(gsoc_data }\OperatorTok{%>%}\StringTok{ }\KeywordTok{filter}\NormalTok{(Year }\OperatorTok{==}\StringTok{ "2016"} \OperatorTok{&}\StringTok{ }\NormalTok{Gender}\OperatorTok{==}\StringTok{"male"}\NormalTok{)) }\OperatorTok{/}\StringTok{ }\KeywordTok{nrow}\NormalTok{(gsoc_data }\OperatorTok{%>%}\StringTok{ }\KeywordTok{filter}\NormalTok{(Year }\OperatorTok{==}\StringTok{ "2016"}\NormalTok{))) }\OperatorTok{*}\StringTok{ }\DecValTok{100}
+
+\NormalTok{pctHomens}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 54.94006
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{listavalores <-}\StringTok{ }\KeywordTok{c}\NormalTok{(pctHomens, pctMulheres1)}
+\NormalTok{listalabels <-}\StringTok{ }\KeywordTok{c}\NormalTok{(}\StringTok{"Men"}\NormalTok{, }\StringTok{"Women"}\NormalTok{)}
+
+\KeywordTok{pie}\NormalTok{(listavalores, listalabels, }\DataTypeTok{border=}\StringTok{"white"}\NormalTok{, }\DataTypeTok{col=}\NormalTok{myPalette)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{graficos_files/figure-latex/unnamed-chunk-11-1.pdf}
+
+\hypertarget{porcentagem-de-participantes-2017}{%
+\paragraph{Porcentagem de participantes
+2017:}\label{porcentagem-de-participantes-2017}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{pctMulheres2 =}\StringTok{ }\NormalTok{(}\KeywordTok{nrow}\NormalTok{(gsoc_data }\OperatorTok{%>%}\StringTok{ }\KeywordTok{filter}\NormalTok{(Year }\OperatorTok{==}\StringTok{ "2017"} \OperatorTok{&}\StringTok{ }\NormalTok{Gender}\OperatorTok{==}\StringTok{"female"}\NormalTok{)) }\OperatorTok{/}\StringTok{ }\KeywordTok{nrow}\NormalTok{(gsoc_data }\OperatorTok{%>%}\StringTok{ }\KeywordTok{filter}\NormalTok{(Year }\OperatorTok{==}\StringTok{ "2017"}\NormalTok{))) }\OperatorTok{*}\StringTok{ }\DecValTok{100}
+
+\NormalTok{pctMulheres2}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 22.55821
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{pctHomens =}\StringTok{ }\NormalTok{(}\KeywordTok{nrow}\NormalTok{(gsoc_data }\OperatorTok{%>%}\StringTok{ }\KeywordTok{filter}\NormalTok{(Year }\OperatorTok{==}\StringTok{ "2017"} \OperatorTok{&}\StringTok{ }\NormalTok{Gender}\OperatorTok{==}\StringTok{"male"}\NormalTok{)) }\OperatorTok{/}\StringTok{ }\KeywordTok{nrow}\NormalTok{(gsoc_data }\OperatorTok{%>%}\StringTok{ }\KeywordTok{filter}\NormalTok{(Year }\OperatorTok{==}\StringTok{ "2017"}\NormalTok{))) }\OperatorTok{*}\StringTok{ }\DecValTok{100}
+
+\NormalTok{pctHomens}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 72.785
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{listavalores <-}\StringTok{ }\KeywordTok{c}\NormalTok{(pctHomens, pctMulheres2)}
+\NormalTok{listalabels <-}\StringTok{ }\KeywordTok{c}\NormalTok{(}\StringTok{"Men"}\NormalTok{, }\StringTok{"Women"}\NormalTok{)}
+
+\KeywordTok{pie}\NormalTok{(listavalores, listalabels, }\DataTypeTok{border=}\StringTok{"white"}\NormalTok{, }\DataTypeTok{col=}\NormalTok{myPalette)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{graficos_files/figure-latex/unnamed-chunk-14-1.pdf}
+
+\hypertarget{porcentagem-de-participantes-2018}{%
+\paragraph{Porcentagem de participantes
+2018:}\label{porcentagem-de-participantes-2018}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{pctMulheres3 =}\StringTok{ }\NormalTok{(}\KeywordTok{nrow}\NormalTok{(gsoc_data }\OperatorTok{%>%}\StringTok{ }\KeywordTok{filter}\NormalTok{(Year }\OperatorTok{==}\StringTok{ "2018"} \OperatorTok{&}\StringTok{ }\NormalTok{Gender}\OperatorTok{==}\StringTok{"female"}\NormalTok{)) }\OperatorTok{/}\StringTok{ }\KeywordTok{nrow}\NormalTok{(gsoc_data }\OperatorTok{%>%}\StringTok{ }\KeywordTok{filter}\NormalTok{(Year }\OperatorTok{==}\StringTok{ "2018"}\NormalTok{))) }\OperatorTok{*}\StringTok{ }\DecValTok{100}
+
+\NormalTok{pctMulheres3}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 21.77864
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{pctHomens =}\StringTok{ }\NormalTok{(}\KeywordTok{nrow}\NormalTok{(gsoc_data }\OperatorTok{%>%}\StringTok{ }\KeywordTok{filter}\NormalTok{(Year }\OperatorTok{==}\StringTok{ "2018"} \OperatorTok{&}\StringTok{ }\NormalTok{Gender}\OperatorTok{==}\StringTok{"male"}\NormalTok{)) }\OperatorTok{/}\StringTok{ }\KeywordTok{nrow}\NormalTok{(gsoc_data }\OperatorTok{%>%}\StringTok{ }\KeywordTok{filter}\NormalTok{(Year }\OperatorTok{==}\StringTok{ "2018"}\NormalTok{))) }\OperatorTok{*}\StringTok{ }\DecValTok{100}
+
+\NormalTok{pctHomens}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 72.8335
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{listavalores <-}\StringTok{ }\KeywordTok{c}\NormalTok{(pctHomens, pctMulheres3)}
+\NormalTok{listalabels <-}\StringTok{ }\KeywordTok{c}\NormalTok{(}\StringTok{"Men"}\NormalTok{, }\StringTok{"Women"}\NormalTok{)}
+
+
+\KeywordTok{pie}\NormalTok{(listavalores, listalabels, }\DataTypeTok{border=}\StringTok{"white"}\NormalTok{, }\DataTypeTok{col=}\NormalTok{myPalette)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{graficos_files/figure-latex/unnamed-chunk-17-1.pdf}
+
+\hypertarget{porcentagem-de-participantes-2019}{%
+\paragraph{Porcentagem de participantes
+2019:}\label{porcentagem-de-participantes-2019}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{pctMulheres4 =}\StringTok{ }\NormalTok{(}\KeywordTok{nrow}\NormalTok{(gsoc_data }\OperatorTok{%>%}\StringTok{ }\KeywordTok{filter}\NormalTok{(Year }\OperatorTok{==}\StringTok{ "2019"} \OperatorTok{&}\StringTok{ }\NormalTok{Gender}\OperatorTok{==}\StringTok{"female"}\NormalTok{)) }\OperatorTok{/}\StringTok{ }\KeywordTok{nrow}\NormalTok{(gsoc_data }\OperatorTok{%>%}\StringTok{ }\KeywordTok{filter}\NormalTok{(Year }\OperatorTok{==}\StringTok{ "2019"}\NormalTok{))) }\OperatorTok{*}\StringTok{ }\DecValTok{100}
+
+\NormalTok{pctMulheres4}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 22.04209
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{pctHomens =}\StringTok{ }\NormalTok{(}\KeywordTok{nrow}\NormalTok{(gsoc_data }\OperatorTok{%>%}\StringTok{ }\KeywordTok{filter}\NormalTok{(Year }\OperatorTok{==}\StringTok{ "2019"} \OperatorTok{&}\StringTok{ }\NormalTok{Gender}\OperatorTok{==}\StringTok{"male"}\NormalTok{)) }\OperatorTok{/}\StringTok{ }\KeywordTok{nrow}\NormalTok{(gsoc_data }\OperatorTok{%>%}\StringTok{ }\KeywordTok{filter}\NormalTok{(Year }\OperatorTok{==}\StringTok{ "2019"}\NormalTok{))) }\OperatorTok{*}\StringTok{ }\DecValTok{100}
+
+\NormalTok{pctHomens}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 72.32651
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{listavalores <-}\StringTok{ }\KeywordTok{c}\NormalTok{(pctHomens, pctMulheres3)}
+\NormalTok{listalabels <-}\StringTok{ }\KeywordTok{c}\NormalTok{(}\StringTok{"Men"}\NormalTok{, }\StringTok{"Women"}\NormalTok{)}
+
+
+\KeywordTok{pie}\NormalTok{(listavalores, listalabels, }\DataTypeTok{border=}\StringTok{"white"}\NormalTok{, }\DataTypeTok{col=}\NormalTok{myPalette)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{graficos_files/figure-latex/unnamed-chunk-20-1.pdf}
+
+\hypertarget{porcentagem-de-mulheres-por-ano}{%
+\paragraph{Porcentagem de mulheres por
+ano}\label{porcentagem-de-mulheres-por-ano}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{porcentagemMulheres <-}\StringTok{ }\KeywordTok{c}\NormalTok{(pctMulheres1,pctMulheres2,pctMulheres3,pctMulheres4)}
+\NormalTok{anos <-}\StringTok{ }\KeywordTok{c}\NormalTok{(}\DecValTok{2016}\NormalTok{ , }\DecValTok{2017}\NormalTok{, }\DecValTok{2018}\NormalTok{, }\DecValTok{2019}\NormalTok{)}
+
+\NormalTok{porcentagemMulheresPorAno <-}\StringTok{ }\KeywordTok{data.frame}\NormalTok{(porcentagemMulheres,anos)}
+
+\KeywordTok{qplot}\NormalTok{(}\DataTypeTok{x =}\NormalTok{ anos, }\DataTypeTok{y =}\NormalTok{ porcentagemMulheres, }\DataTypeTok{data =}\NormalTok{ porcentagemMulheresPorAno, }\DataTypeTok{geom =} \StringTok{"line"}\NormalTok{, }\DataTypeTok{xlab=}\StringTok{"Year"}\NormalTok{, }\DataTypeTok{ylab=}\StringTok{"Women Percentage"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{graficos_files/figure-latex/unnamed-chunk-21-1.pdf}
+
+\hypertarget{comparauxe7uxe3o-de-mentores-e-estudantes}{%
+\paragraph{Comparação de Mentores e
+Estudantes}\label{comparauxe7uxe3o-de-mentores-e-estudantes}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{qtdMentores =}\StringTok{ }\NormalTok{(}\KeywordTok{nrow}\NormalTok{(gsoc_data }\OperatorTok{%>%}\StringTok{ }\KeywordTok{filter}\NormalTok{(Person.Type }\OperatorTok{==}\StringTok{ "mentor"}\NormalTok{)))}
+\NormalTok{qtdEstudantes =}\StringTok{ }\NormalTok{(}\KeywordTok{nrow}\NormalTok{(gsoc_data }\OperatorTok{%>%}\StringTok{ }\KeywordTok{filter}\NormalTok{(Person.Type }\OperatorTok{==}\StringTok{ "student"}\NormalTok{)))}
+
+\NormalTok{qtdMentores}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 8379
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{qtdEstudantes}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 3944
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{listavalores <-}\StringTok{ }\KeywordTok{c}\NormalTok{(qtdMentores, qtdEstudantes)}
+\NormalTok{listalabels <-}\StringTok{ }\KeywordTok{c}\NormalTok{(}\StringTok{"Mentors"}\NormalTok{, }\StringTok{"Students"}\NormalTok{)}
+
+
+\KeywordTok{pie}\NormalTok{(listavalores, listalabels, }\DataTypeTok{border=}\StringTok{"white"}\NormalTok{, }\DataTypeTok{col=}\NormalTok{myPalette)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{graficos_files/figure-latex/unnamed-chunk-23-1.pdf}
+\#\#\#\# Comparação de Gêneros de Mentores
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{pctMulheresMentoras =}\StringTok{ }\NormalTok{(}\KeywordTok{nrow}\NormalTok{(gsoc_data }\OperatorTok{%>%}\StringTok{ }\KeywordTok{filter}\NormalTok{(Person.Type }\OperatorTok{==}\StringTok{ "mentor"} \OperatorTok{&}\StringTok{ }\NormalTok{Gender}\OperatorTok{==}\StringTok{"female"}\NormalTok{)) }\OperatorTok{/}\StringTok{ }\KeywordTok{nrow}\NormalTok{(gsoc_data }\OperatorTok{%>%}\StringTok{ }\KeywordTok{filter}\NormalTok{(Gender }\OperatorTok{==}\StringTok{ "female"}\NormalTok{))) }\OperatorTok{*}\StringTok{ }\DecValTok{100}
+
+\NormalTok{pctHomensMentores =}\StringTok{ }\NormalTok{(}\KeywordTok{nrow}\NormalTok{(gsoc_data }\OperatorTok{%>%}\StringTok{ }\KeywordTok{filter}\NormalTok{(Person.Type }\OperatorTok{==}\StringTok{ "mentor"} \OperatorTok{&}\StringTok{ }\NormalTok{Gender }\OperatorTok{==}\StringTok{ "male"}\NormalTok{)) }\OperatorTok{/}\StringTok{ }\KeywordTok{nrow}\NormalTok{(gsoc_data }\OperatorTok{%>%}\StringTok{ }\KeywordTok{filter}\NormalTok{(Gender }\OperatorTok{==}\StringTok{ "male"}\NormalTok{))) }\OperatorTok{*}\StringTok{ }\DecValTok{100}
+
+
+\NormalTok{pctMulheresMentoras}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 69.33375
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{pctHomensMentores}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 67.62877
+\end{verbatim}
+
+\hypertarget{frequuxeancia-absoluta-das-tecnologias}{%
+\paragraph{Frequência absoluta das
+tecnologias}\label{frequuxeancia-absoluta-das-tecnologias}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{tecnologias.tb <-}\StringTok{ }\KeywordTok{table}\NormalTok{(gsoc_data}\OperatorTok{$}\NormalTok{Technology)}
+
+\KeywordTok{barplot}\NormalTok{(tecnologias.tb, }\DataTypeTok{las=}\DecValTok{2}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{graficos_files/figure-latex/unnamed-chunk-25-1.pdf}
+
+\hypertarget{gruxe1fico-das-5-tecnologias-mais-utilizadas}{%
+\paragraph{gráfico das 5 tecnologias mais
+utilizadas}\label{gruxe1fico-das-5-tecnologias-mais-utilizadas}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{tecnologias.tb <-}\StringTok{ }\KeywordTok{sort}\NormalTok{(tecnologias.tb)}
+
+\KeywordTok{barplot}\NormalTok{(}\KeywordTok{tail}\NormalTok{(tecnologias.tb, }\DecValTok{5}\NormalTok{), }\DataTypeTok{las=}\DecValTok{2}\NormalTok{, }\DataTypeTok{cex.names=}\FloatTok{0.8}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{graficos_files/figure-latex/unnamed-chunk-26-1.pdf}
+
+\hypertarget{frequuxeancia-absoluta-dos-tuxf3picos}{%
+\paragraph{Frequência absoluta dos
+tópicos}\label{frequuxeancia-absoluta-dos-tuxf3picos}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{topicos.tb <-}\StringTok{ }\KeywordTok{table}\NormalTok{(gsoc_data}\OperatorTok{$}\NormalTok{Topic)}
+\KeywordTok{barplot}\NormalTok{(topicos.tb, }\DataTypeTok{las=}\DecValTok{2}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{graficos_files/figure-latex/unnamed-chunk-27-1.pdf}
+
+\hypertarget{gruxe1fico-dos-20-tuxf3picos-mais-frequentes}{%
+\paragraph{gráfico dos 20 tópicos mais
+frequentes}\label{gruxe1fico-dos-20-tuxf3picos-mais-frequentes}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{topicos.tb <-}\StringTok{ }\KeywordTok{sort}\NormalTok{(topicos.tb)}
+
+\KeywordTok{barplot}\NormalTok{(}\KeywordTok{tail}\NormalTok{(topicos.tb, }\DecValTok{20}\NormalTok{), }\DataTypeTok{las=}\DecValTok{2}\NormalTok{, }\DataTypeTok{cex.names=}\FloatTok{0.5}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{graficos_files/figure-latex/unnamed-chunk-28-1.pdf}
+
+\hypertarget{gruxe1fico-dos-5-tuxf3picos-mais-frequentes}{%
+\paragraph{gráfico dos 5 tópicos mais
+frequentes}\label{gruxe1fico-dos-5-tuxf3picos-mais-frequentes}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{topicos.tb <-}\StringTok{ }\KeywordTok{sort}\NormalTok{(topicos.tb)}
+
+\KeywordTok{barplot}\NormalTok{(}\KeywordTok{tail}\NormalTok{(topicos.tb, }\DecValTok{5}\NormalTok{), }\DataTypeTok{las=}\DecValTok{1}\NormalTok{, }\DataTypeTok{cex.names=}\FloatTok{0.8}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{graficos_files/figure-latex/unnamed-chunk-29-1.pdf}
+
+\end{document}

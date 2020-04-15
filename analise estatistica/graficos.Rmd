@@ -1,10 +1,11 @@
 ---
 title: "Obversações GSOC"
 author: "Jhemeson Silva Mota"
-date: "18 de Setembro de 2019"
-output: 
-  html_document: 
+date: "15 de Abril de 2020"
+output:
+  html_document:
     highlight: pygments
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -129,12 +130,33 @@ listalabels <- c("Men", "Women")
 pie(listavalores, listalabels, border="white", col=myPalette)
 ```
 
+#### Porcentagem de participantes 2019:
+
+```{r}
+pctMulheres4 = (nrow(gsoc_data %>% filter(Year == "2019" & Gender=="female")) / nrow(gsoc_data %>% filter(Year == "2019"))) * 100
+
+pctMulheres4
+```
+
+```{r}
+pctHomens = (nrow(gsoc_data %>% filter(Year == "2019" & Gender=="male")) / nrow(gsoc_data %>% filter(Year == "2019"))) * 100
+
+pctHomens
+```
+
+```{r}
+listavalores <- c(pctHomens, pctMulheres3)
+listalabels <- c("Men", "Women")
+
+
+pie(listavalores, listalabels, border="white", col=myPalette)
+```
 
 #### Porcentagem de mulheres por ano
 
 ```{r}
-porcentagemMulheres <- c(pctMulheres1,pctMulheres2,pctMulheres3)
-anos <- c(2016 , 2017, 2018)
+porcentagemMulheres <- c(pctMulheres1,pctMulheres2,pctMulheres3,pctMulheres4)
+anos <- c(2016 , 2017, 2018, 2019)
 
 porcentagemMulheresPorAno <- data.frame(porcentagemMulheres,anos)
 
