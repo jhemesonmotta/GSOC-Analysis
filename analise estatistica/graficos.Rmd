@@ -12,7 +12,6 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 library(dplyr)
 library(ggplot2)
-library(RColorBrewer)
 ```
 * * *
 
@@ -20,7 +19,6 @@ library(RColorBrewer)
 
 ```{r}
 gsoc_data <- read.csv(file="gsoc_data.csv", header=TRUE, sep=",")
-myPalette <- brewer.pal(5, "Set2") 
 
 ```
 
@@ -29,7 +27,9 @@ myPalette <- brewer.pal(5, "Set2")
 #### Quantidade de Participantes por Ano com Diferenciação de sexo:
 
 ```{r}
-qplot(x = Year, fill = Gender, data = gsoc_data, binwidth = 1, xlab="Year", ylab="Number of People")
+pt <- qplot(x = Year, fill = Gender, data = gsoc_data, binwidth = 1, xlab="Year", ylab="Number of People")
+
+pt + scale_fill_grey(start = 0.7, end = 0.3)
 
 ```
 
@@ -84,7 +84,7 @@ pctHomens
 listavalores <- c(pctHomens, pctMulheres1)
 listalabels <- c("Men", "Women")
 
-pie(listavalores, listalabels, border="white", col=myPalette)
+pie(listavalores, listalabels, border="white", col=c("grey","darkgray"))
 ```
 
 #### Porcentagem de participantes 2017:
@@ -105,7 +105,7 @@ pctHomens
 listavalores <- c(pctHomens, pctMulheres2)
 listalabels <- c("Men", "Women")
 
-pie(listavalores, listalabels, border="white", col=myPalette)
+pie(listavalores, listalabels, border="white", col=c("grey","darkgray"))
 ```
 
 #### Porcentagem de participantes 2018:
@@ -127,7 +127,7 @@ listavalores <- c(pctHomens, pctMulheres3)
 listalabels <- c("Men", "Women")
 
 
-pie(listavalores, listalabels, border="white", col=myPalette)
+pie(listavalores, listalabels, border="white", col=c("grey","darkgray"))
 ```
 
 #### Porcentagem de participantes 2019:
@@ -149,7 +149,7 @@ listavalores <- c(pctHomens, pctMulheres3)
 listalabels <- c("Men", "Women")
 
 
-pie(listavalores, listalabels, border="white", col=myPalette)
+pie(listavalores, listalabels, border="white", col=c("grey","darkgray"))
 ```
 
 #### Porcentagem de mulheres por ano
@@ -178,7 +178,7 @@ listavalores <- c(qtdMentores, qtdEstudantes)
 listalabels <- c("Mentors", "Students")
 
 
-pie(listavalores, listalabels, border="white", col=myPalette)
+pie(listavalores, listalabels, border="white", col=c("grey","darkgray"))
 ```
 #### Comparação de Gêneros de Mentores
 ```{r}
