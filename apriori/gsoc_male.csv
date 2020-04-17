@@ -1444,19 +1444,19 @@ mentor,java,cloud
 student,c++,gis
 mentor,c++,gis
 mentor,c++,gis
-student,python,nlp
-mentor,python,nlp
+student, python,nlp
+mentor, python,nlp
 student,c++,computer vision
 mentor,c++,computer vision
 mentor,c++,computer vision
 student,js,web
 mentor,js,web
-student,php,web
-mentor,php,web
-mentor,php,web
-mentor,php,data
-mentor,php,data
-mentor,php,data
+student,php , web
+mentor,php , web
+mentor,php , web
+mentor, php,data
+mentor, php,data
+mentor, php,data
 student,python,hardware
 mentor,python,hardware
 mentor,python,hardware
@@ -1467,19 +1467,19 @@ mentor,scala,logic
 mentor,scala,logic
 mentor,c++,neuroscience
 mentor,c++,neuroscience
-student,android,home servers
-mentor,android,home servers
-mentor,android,home servers
+student, android,home servers
+mentor, android,home servers
+mentor, android,home servers
 student,python,hardware
 mentor,python,hardware
 mentor,python,hardware
 mentor,python,hardware
 mentor,python,hardware
 mentor,python,hardware
-student,python,bioinformatics
-mentor,python,bioinformatics
-mentor,python,bioinformatics
-mentor,python,bioinformatics
+student, python,bioinformatics
+mentor, python,bioinformatics
+mentor, python,bioinformatics
+mentor, python,bioinformatics
 mentor,c++,desktop
 mentor,c++,desktop
 student,java,network biology
@@ -1516,9 +1516,9 @@ mentor,r-project,data science
 mentor,r-project,data science
 mentor,r-project,data science
 mentor,r-project,data science
-student,php,social
-mentor,php,social
-mentor,php,social
+student,php ,social
+mentor,php ,social
+mentor,php ,social
 student,python,networking
 mentor,python,networking
 mentor,python,networking
@@ -1543,12 +1543,12 @@ mentor,java,games
 mentor,java,games
 mentor,java,games
 mentor,java,games
-student,android,home servers
-mentor,android,home servers
-mentor,android,home servers
+student, android,home servers
+mentor, android,home servers
+mentor, android,home servers
 student,java,fintech
 mentor,java,fintech
-student,python,security
+student, python,security
 mentor,java,fintech
 mentor,java,fintech
 student,java,fintech
@@ -1561,7 +1561,7 @@ student,c,privacy
 mentor,c,privacy
 student,java,clinical
 mentor,java,clinical
-mentor,python,bioinformatics
+mentor, python,bioinformatics
 student,java,cloud
 mentor,java,cloud
 mentor,java,cloud
@@ -1592,7 +1592,7 @@ mentor,scala,compiler
 student,python,code analysis
 mentor,python,code analysis
 mentor,java,cloud
-student,python,security
+student, python,security
 student,c++,natural language processing
 mentor,c++,natural language processing
 mentor,c++,natural language processing
@@ -1600,7 +1600,7 @@ mentor,c++,natural language processing
 student,python,particle physics
 mentor,python,particle physics
 mentor,python,particle physics
-student,php,web
+student,php , web
 student,php,web
 mentor,php,web
 mentor,php,web
@@ -1637,8 +1637,8 @@ mentor,java,games
 mentor,java,games
 mentor,java,games
 mentor,java,games
-student,svg,graphics
-mentor,svg,graphics
+student,svg, graphics
+mentor,svg, graphics
 mentor,python,particle physics
 mentor,python,particle physics
 mentor,python,particle physics
@@ -1646,8 +1646,8 @@ mentor,python,particle physics
 student,r-project,data science
 mentor,r-project,data science
 mentor,r-project,data science
-mentor,python,bioinformatics
-mentor,python,bioinformatics
+mentor, python,bioinformatics
+mentor, python,bioinformatics
 student,open hardware,new projects
 student,c++,mathematics
 mentor,c++,mathematics
@@ -1657,14 +1657,14 @@ student,c++,library
 mentor,c++,library
 student,tcl,package manager
 mentor,tcl,package manager
-mentor,javascript,environment
-mentor,javascript,environment
-mentor,javascript,environment
+mentor, javascript,environment
+mentor, javascript,environment
+mentor, javascript,environment
 student,java,programmer productivity
 mentor,java,programmer productivity
 mentor,java,programmer productivity
-student,react,real time
-mentor,react,real time
+student,react, real time
+mentor,react, real time
 student,java,code quality
 mentor,java,code quality
 student,java,fintech
@@ -1675,8 +1675,8 @@ student,python,enterprise
 mentor,python,enterprise
 student,java,creative coding
 mentor,java,creative coding
-student,python,security
-mentor,python,security
+student, python,security
+mentor, python,security
 student,python,networking
 mentor,python,networking
 student,llvm,compiler
@@ -1685,8 +1685,8 @@ student,python,free and open source software  license and origin
 mentor,python,free and open source software  license and origin
 student,python,enterprise
 mentor,python,enterprise
-student,c++,desktop integration
-mentor,c++,desktop integration
+student,c++, desktop integration
+mentor,c++, desktop integration
 student,javascript,computational biology
 mentor,javascript,computational biology
 mentor,javascript,computational biology
@@ -1739,9 +1739,9 @@ mentor,php,web
 student,c++,video
 mentor,c++,video
 mentor,c++,video
-student,python,artificial intelligence
-mentor,python,artificial intelligence
-mentor,python,artificial intelligence
+student, python,artificial intelligence
+mentor, python,artificial intelligence
+mentor, python,artificial intelligence
 student,verilog,fpga
 mentor,verilog,fpga
 student,scala,logic
@@ -1761,12 +1761,12 @@ mentor,python,code analysis
 mentor,python,code analysis
 student,c,desktop
 mentor,c,desktop
-student,javascript,cancer
-mentor,javascript,cancer
-mentor,javascript,cancer
-student,android,mobile
-mentor,android,mobile
-mentor,android,mobile
+student, javascript,cancer
+mentor, javascript,cancer
+mentor, javascript,cancer
+student,android, mobile
+mentor,android, mobile
+mentor,android, mobile
 student,c,speech recognition
 mentor,c,speech recognition
 mentor,c,speech recognition
@@ -1793,7 +1793,7 @@ student,java,virtualization
 mentor,java,virtualization
 student,scala,compiler
 mentor,scala,compiler
-mentor,python,security
+mentor, python,security
 student,python,linux distribution
 mentor,python,linux distribution
 student,r-project,data science
@@ -1818,12 +1818,12 @@ mentor,python,particle physics
 mentor,python,particle physics
 mentor,python,particle physics
 mentor,python,particle physics
-student,react,real time
-mentor,react,real time
+student,react, real time
+mentor,react, real time
 mentor,c,machine learning
 mentor,c,machine learning
-student,java,static code analysisâ€Ž
-mentor,java,static code analysisâ€Ž
+student, java,static code analysisâ€Ž
+mentor, java,static code analysisâ€Ž
 student,c#,compiler
 mentor,c#,compiler
 student,c#,compiler
@@ -1838,10 +1838,10 @@ mentor,javascript,compilers
 mentor,javascript,compilers
 student,php,web
 mentor,php,web
-student,ruby,science
-mentor,ruby,science
-mentor,ruby,science
-mentor,ruby,science
+student, ruby,science
+mentor, ruby,science
+mentor, ruby,science
+mentor, ruby,science
 student,open hardware,new projects
 student,c++,natural language processing
 mentor,c++,natural language processing
@@ -1876,9 +1876,9 @@ student,java,web
 mentor,java,web
 mentor,java,web
 student,java,cloud
-student,java,natural language processing
-mentor,java,natural language processing
-mentor,java,natural language processing
+student, java,natural language processing
+mentor, java,natural language processing
+mentor, java,natural language processing
 student,java,cloud
 student,c,kernel
 mentor,c,kernel
@@ -1968,9 +1968,9 @@ mentor,java,network biology
 mentor,java,network biology
 student,python,linux distribution
 mentor,python,linux distribution
-student,javascript,environment
-mentor,javascript,environment
-mentor,javascript,environment
+student, javascript,environment
+mentor, javascript,environment
+mentor, javascript,environment
 mentor,python,event management
 mentor,python,event management
 mentor,python,event management
@@ -2002,15 +2002,15 @@ mentor,python,event management
 mentor,python,event management
 student,linux,firewall
 mentor,linux,firewall
-student,python,learning
-mentor,python,learning
+student, python,learning
+mentor, python,learning
 student,python,high performance computing
 mentor,python,high performance computing
 mentor,python,high performance computing
-student,php,data
-mentor,php,data
-mentor,php,data
-mentor,php,data
+student, php,data
+mentor, php,data
+mentor, php,data
+mentor, php,data
 student,c++,desktop
 mentor,c++,desktop
 student,c,speech recognition
@@ -2038,9 +2038,9 @@ mentor,kubernetes,cloud
 student,r,ecosystem models
 mentor,r,ecosystem models
 mentor,r,ecosystem models
-student,android,home servers
-mentor,android,home servers
-mentor,android,home servers
+student, android,home servers
+mentor, android,home servers
+mentor, android,home servers
 student,c,desktop
 student,python,code analysis
 mentor,python,code analysis
@@ -2052,8 +2052,8 @@ student,c++,computer vision
 mentor,c++,computer vision
 mentor,c++,computer vision
 mentor,c++,computer vision
-mentor,php,data
-mentor,php,data
+mentor, php,data
+mentor, php,data
 student,open hardware,new projects
 mentor,open hardware,new projects
 student,open hardware,new projects
@@ -2101,7 +2101,7 @@ mentor,elm,functional programming
 student,c/c++,cad
 mentor,c/c++,cad
 mentor,c/c++,cad
-mentor,javascript,environment
+mentor, javascript,environment
 student,c,subtitles
 mentor,c,subtitles
 student,llvm,compiler
@@ -2171,10 +2171,10 @@ mentor,java,programmer productivity
 student,r-project,data science
 mentor,r-project,data science
 mentor,r-project,data science
-student,python,bioinformatics
-mentor,python,bioinformatics
-mentor,python,bioinformatics
-mentor,python,bioinformatics
+student, python,bioinformatics
+mentor, python,bioinformatics
+mentor, python,bioinformatics
+mentor, python,bioinformatics
 student,python,iot
 mentor,python,iot
 mentor,python,iot
@@ -2240,14 +2240,14 @@ student,r-project,data science
 mentor,r-project,data science
 student,js,web
 mentor,js,web
-mentor,java,natural language processing
+mentor, java,natural language processing
 student,c,multimedia
 mentor,c,multimedia
 student,c,kernel
 mentor,c,kernel
-student,java,static code analysisâ€Ž
-mentor,java,static code analysisâ€Ž
-mentor,java,static code analysisâ€Ž
+student, java,static code analysisâ€Ž
+mentor, java,static code analysisâ€Ž
+mentor, java,static code analysisâ€Ž
 student,opengl,3d
 mentor,opengl,3d
 student,javascript,virtual reality
@@ -2273,8 +2273,8 @@ student,c,desktop
 student,xia,computer networking
 mentor,xia,computer networking
 mentor,xia,computer networking
-student,python,bioinformatics
-mentor,python,bioinformatics
+student, python,bioinformatics
+mentor, python,bioinformatics
 student,c,speech recognition
 mentor,c,speech recognition
 mentor,c,speech recognition
@@ -2301,10 +2301,10 @@ mentor,rdf,compliance
 mentor,rdf,compliance
 student,js,web
 mentor,js,web
-student,python,learning
-mentor,python,learning
-student,php,web
-mentor,php,web
+student, python,learning
+mentor, python,learning
+student,php , web
+mentor,php , web
 student,c,desktop
 mentor,c,desktop
 student,c,desktop
@@ -2344,7 +2344,7 @@ mentor,c++,mathematics
 mentor,c++,mathematics
 student,c++,machine learning
 mentor,c++,machine learning
-student,php,web
+student,php , web
 student,c++,library
 student,python,linux distribution
 student,qt,robotics
@@ -2357,8 +2357,8 @@ student,c++,computational geometry
 student,python,visualisation
 mentor,python,visualisation
 mentor,python,visualisation
-student,python,security
-mentor,python,security
+student, python,security
+mentor, python,security
 student,beacon,internet of things
 mentor,beacon,internet of things
 mentor,beacon,internet of things
@@ -2388,15 +2388,15 @@ student,python,high performance computing
 mentor,python,high performance computing
 mentor,python,high performance computing
 mentor,python,high performance computing
-student,javascript,cancer
-mentor,javascript,cancer
-mentor,javascript,cancer
+student, javascript,cancer
+mentor, javascript,cancer
+mentor, javascript,cancer
 student,c,desktop
 mentor,java,cloud
 mentor,java,cloud
-student,python,bioinformatics
-mentor,python,bioinformatics
-mentor,python,bioinformatics
+student, python,bioinformatics
+mentor, python,bioinformatics
+mentor, python,bioinformatics
 mentor,c++,gis
 mentor,java,network biology
 student,python,event management
@@ -2415,12 +2415,12 @@ mentor,c++,office suite
 student,c,vpn
 mentor,c,vpn
 mentor,c,vpn
-student,php,web
-mentor,php,web
+student,php , web
+mentor,php , web
 mentor,python,artificial intelligence
-mentor,php,data
-mentor,php,data
-mentor,php,data
+mentor, php,data
+mentor, php,data
+mentor, php,data
 student,java,network biology
 mentor,java,network biology
 mentor,erlang,realtime
@@ -2443,7 +2443,7 @@ mentor,python,mathematics
 mentor,python,artificial intelligence
 student,c++,cloud storage
 mentor,c++,cloud storage
-mentor,c++,computer graphics
+mentor,c++, computer graphics
 mentor,c++,networking
 student,python,event management
 mentor,python,event management
@@ -2470,11 +2470,11 @@ student,python,mathematics
 mentor,python,mathematics
 student,lede/openwrt,wireless
 mentor,lede/openwrt,wireless
-student,python,artificial intelligence
-mentor,python,artificial intelligence
-mentor,python,artificial intelligence
-mentor,python,artificial intelligence
-mentor,python,artificial intelligence
+student, python,artificial intelligence
+mentor, python,artificial intelligence
+mentor, python,artificial intelligence
+mentor, python,artificial intelligence
+mentor, python,artificial intelligence
 student,python,mathematics
 mentor,python,mathematics
 mentor,python,mathematics
@@ -2530,15 +2530,15 @@ mentor,java,locationtech
 student,c++,office suite
 mentor,c++,office suite
 mentor,c++,office suite
-mentor,python,genomics
+mentor, python,genomics
 mentor,python,code analysis
 mentor,python,code analysis
 student,python,enterprise
 mentor,python,enterprise
-student,python,content management
-mentor,python,content management
-mentor,python,content management
-mentor,python,content management
+student,python, content management
+mentor,python, content management
+mentor,python, content management
+mentor,python, content management
 mentor,kubernetes,cloud
 student,python,mathematics
 mentor,python,mathematics
@@ -2546,15 +2546,15 @@ mentor,python,mathematics
 mentor,python,mathematics
 mentor,r-project,data science
 mentor,r-project,data science
-student,javascript,cancer
-mentor,javascript,cancer
-student,python,artificial intelligence
-mentor,python,artificial intelligence
-mentor,python,artificial intelligence
-student,python,content management
-mentor,python,content management
-mentor,python,content management
-mentor,python,content management
+student, javascript,cancer
+mentor, javascript,cancer
+student, python,artificial intelligence
+mentor, python,artificial intelligence
+mentor, python,artificial intelligence
+student,python, content management
+mentor,python, content management
+mentor,python, content management
+mentor,python, content management
 student,llvm,compiler
 mentor,llvm,compiler
 mentor,llvm,compiler
@@ -2580,9 +2580,9 @@ mentor,python,particle physics
 mentor,python,particle physics
 student,python,enterprise
 mentor,python,enterprise
-student,php,web
-mentor,php,web
-mentor,php,web
+student,php , web
+mentor,php , web
+mentor,php , web
 mentor,c++,natural language processing
 mentor,c++,natural language processing
 student,c,privacy
@@ -2600,9 +2600,9 @@ mentor,java,cloud
 mentor,java,cloud
 student,php,database
 mentor,php,database
-mentor,python,content management
-student,react,real time
-mentor,react,real time
+mentor,python, content management
+student,react, real time
+mentor,react, real time
 mentor,ruby,security
 student,python,mathematics
 mentor,c++11,music engraving
@@ -2624,8 +2624,8 @@ mentor,c++,neuroscience
 mentor,c++,neuroscience
 mentor,ruby on rails,digital rights
 mentor,ruby on rails,digital rights
-mentor,java,program analysis
-mentor,java,program analysis
+mentor,java,program analysis 
+mentor,java,program analysis 
 student,c,version control
 mentor,c,version control
 mentor,c,version control
@@ -2653,9 +2653,9 @@ mentor,ros,robotics
 student,c++,gis
 mentor,c++,gis
 mentor,c++,gis
-mentor,javascript,cancer
-mentor,javascript,cancer
-mentor,javascript,cancer
+mentor, javascript,cancer
+mentor, javascript,cancer
+mentor, javascript,cancer
 student,c++,gis
 mentor,c++,gis
 mentor,c++,gis
@@ -2709,8 +2709,8 @@ mentor,python,hardware
 mentor,python,hardware
 mentor,python,hardware
 mentor,python,hardware
-mentor,java,program analysis
-mentor,java,program analysis
+mentor,java,program analysis 
+mentor,java,program analysis 
 mentor,c,operating system
 student,c,operating system
 mentor,c,operating system
@@ -2727,8 +2727,8 @@ mentor,python,robotics
 student,python,particle physics
 mentor,python,particle physics
 mentor,python,particle physics
-student,java,program analysis
-mentor,java,program analysis
+student,java,program analysis 
+mentor,java,program analysis 
 student,js,web
 mentor,js,web
 mentor,java,education
@@ -2737,11 +2737,11 @@ mentor,shell,linux
 student,c,desktop
 mentor,c,desktop
 student,ros,robotics
-mentor,java,natural language processing
-mentor,java,natural language processing
-student,java,natural language processing
-mentor,java,natural language processing
-mentor,java,natural language processing
+mentor, java,natural language processing
+mentor, java,natural language processing
+student, java,natural language processing
+mentor, java,natural language processing
+mentor, java,natural language processing
 student,python,iot
 mentor,python,iot
 mentor,python,iot
@@ -2793,9 +2793,9 @@ mentor,python,cubesats
 student,html,web
 mentor,html,web
 mentor,html,web
-student,python,security
-mentor,python,security
-mentor,python,security
+student, python,security
+mentor, python,security
+mentor, python,security
 mentor,lua,scripting languages
 mentor,c++,graphics
 mentor,c++,graphics
@@ -2811,21 +2811,21 @@ mentor,python,hardware
 mentor,python,hardware
 mentor,python,hardware
 mentor,python,hardware
-student,python,learning
-mentor,python,learning
-mentor,python,learning
+student, python,learning
+mentor, python,learning
+mentor, python,learning
 student,virtualization,general purpose os
 mentor,virtualization,general purpose os
 mentor,virtualization,general purpose os
 student,c++,autopilot
 mentor,c++,autopilot
 mentor,c++,autopilot
-student,ruby,science
-mentor,ruby,science
-mentor,ruby,science
-student,ruby,science
-mentor,ruby,science
-mentor,ruby,science
+student, ruby,science
+mentor, ruby,science
+mentor, ruby,science
+student, ruby,science
+mentor, ruby,science
+mentor, ruby,science
 student,c++,desktop
 mentor,c++,desktop
 mentor,c,microkernel
@@ -2834,16 +2834,16 @@ mentor,ruby on rails,linux distribution
 mentor,ruby on rails,linux distribution
 student,c,security
 mentor,c,security
-student,python,artificial intelligence
-mentor,python,artificial intelligence
+student, python,artificial intelligence
+mentor, python,artificial intelligence
 student,scala,logic
 mentor,scala,logic
 mentor,scala,logic
 mentor,scala,logic
 mentor,scala,logic
-student,javascript,environment
-mentor,javascript,environment
-mentor,javascript,environment
+student, javascript,environment
+mentor, javascript,environment
+mentor, javascript,environment
 student,c++,desktop
 mentor,c++,desktop
 mentor,c++,desktop
@@ -2887,7 +2887,7 @@ mentor,c++,office suite
 student,c++,desktop
 mentor,c++,desktop
 mentor,c++,desktop
-mentor,python,learning
+mentor, python,learning
 student,scala,logic
 mentor,scala,logic
 mentor,scala,logic
@@ -2896,12 +2896,12 @@ mentor,c,multimedia
 student,linux,firewall
 mentor,linux,firewall
 mentor,linux,firewall
-student,python,security
-mentor,python,security
-mentor,python,security
-mentor,python,security
-mentor,python,security
-mentor,python,security
+student, python,security
+mentor, python,security
+mentor, python,security
+mentor, python,security
+mentor, python,security
+mentor, python,security
 student,c,speech recognition
 mentor,c,speech recognition
 mentor,python,hardware
@@ -2940,9 +2940,9 @@ mentor,lisp,artificial intelligence
 student,lisp,artificial intelligence
 mentor,lisp,artificial intelligence
 mentor,lisp,artificial intelligence
-student,java,static code analysisâ€Ž
-mentor,java,static code analysisâ€Ž
-mentor,java,static code analysisâ€Ž
+student, java,static code analysisâ€Ž
+mentor, java,static code analysisâ€Ž
+mentor, java,static code analysisâ€Ž
 student,high performance computing,natural language processing
 mentor,high performance computing,natural language processing
 mentor,high performance computing,natural language processing
@@ -3088,9 +3088,9 @@ mentor,c++,library
 student,julia,graphics
 mentor,julia,graphics
 mentor,julia,graphics
-student,java,program analysis
-mentor,java,program analysis
-mentor,java,program analysis
+student,java,program analysis 
+mentor,java,program analysis 
+mentor,java,program analysis 
 mentor,verilog,fpga
 mentor,verilog,fpga
 student,python,cubesats
@@ -3156,9 +3156,9 @@ student,c,desktop
 mentor,c,desktop
 student,c,desktop
 mentor,java,network biology
-student,python,content management
-mentor,python,content management
-mentor,python,content management
+student,python, content management
+mentor,python, content management
+mentor,python, content management
 student,python,free and open source software  license and origin
 mentor,python,free and open source software  license and origin
 student,c++,desktop
@@ -3191,8 +3191,8 @@ mentor,lua,scripting languages
 student,python,visualisation
 mentor,python,visualisation
 mentor,python,visualisation
-student,c++,desktop integration
-mentor,c++,desktop integration
+student,c++, desktop integration
+mentor,c++, desktop integration
 student,c,real time
 mentor,c,real time
 mentor,c,real time
@@ -3200,21 +3200,21 @@ mentor,lede/openwrt,wireless
 student,java,web
 mentor,java,web
 mentor,java,web
-student,java,static code analysisâ€Ž
-mentor,java,static code analysisâ€Ž
+student, java,static code analysisâ€Ž
+mentor, java,static code analysisâ€Ž
 student,javascript,routing
 mentor,javascript,routing
-student,c++,desktop integration
-mentor,c++,desktop integration
+student,c++, desktop integration
+mentor,c++, desktop integration
 student,ruby on rails,linux distribution
 mentor,ruby on rails,linux distribution
 mentor,ruby on rails,linux distribution
 mentor,java,creative coding
 student,java,creative coding
 mentor,java,creative coding
-student,java,program analysis
-mentor,java,program analysis
-mentor,java,program analysis
+student,java,program analysis 
+mentor,java,program analysis 
+mentor,java,program analysis 
 mentor,c++,desktop
 student,php,web
 mentor,php,web
@@ -3252,10 +3252,10 @@ mentor,python,event management
 mentor,python,event management
 mentor,python,event management
 mentor,c,operating system
-student,python,security
-mentor,python,security
-mentor,python,security
-mentor,python,security
+student, python,security
+mentor, python,security
+mentor, python,security
+mentor, python,security
 student,python,bioinformatics
 mentor,python,bioinformatics
 mentor,python,event management
@@ -3281,8 +3281,8 @@ mentor,soa,cloud
 mentor,c,subtitles
 student,opengl,3d
 mentor,opengl,3d
-student,c++,computer graphics
-mentor,c++,computer graphics
+student,c++, computer graphics
+mentor,c++, computer graphics
 student,c++,gis
 mentor,c++,gis
 mentor,c++,gis
@@ -3323,8 +3323,8 @@ student,html,web
 mentor,html,web
 mentor,android,education
 mentor,android,education
-student,java,static code analysisâ€Ž
-mentor,java,static code analysisâ€Ž
+student, java,static code analysisâ€Ž
+mentor, java,static code analysisâ€Ž
 student,scala,compiler
 mentor,scala,compiler
 mentor,scala,compiler
@@ -3400,7 +3400,7 @@ mentor,c,samba
 mentor,c,samba
 mentor,javascript,virtual reality
 mentor,javascript,virtual reality
-mentor,python,learning
+mentor, python,learning
 student,r,ecosystem models
 mentor,r,ecosystem models
 mentor,r,ecosystem models
@@ -3502,8 +3502,8 @@ mentor,java,web
 student,c/c++,virtualization
 mentor,c/c++,virtualization
 mentor,c/c++,virtualization
-student,python,security
-mentor,python,security
+student, python,security
+mentor, python,security
 student,lua,programming tools
 mentor,lua,programming tools
 student,c++,computer vision
@@ -3519,10 +3519,10 @@ mentor,javascript,real time
 mentor,c++,gis
 student,r-project,data science
 mentor,r-project,data science
-student,python,nlp
-mentor,python,nlp
-mentor,python,nlp
-mentor,python,nlp
+student, python,nlp
+mentor, python,nlp
+mentor, python,nlp
+mentor, python,nlp
 student,lede/openwrt,wireless
 mentor,lede/openwrt,wireless
 mentor,lede/openwrt,wireless
@@ -3540,8 +3540,8 @@ mentor,python,iot
 mentor,python,iot
 student,python,bioinformatics
 mentor,python,bioinformatics
-student,javascript,cancer
-mentor,javascript,cancer
+student, javascript,cancer
+mentor, javascript,cancer
 student,c++11,music engraving
 mentor,c++11,music engraving
 student,python,hardware
@@ -3554,11 +3554,11 @@ mentor,java,education
 mentor,java,education
 mentor,python,hardware
 mentor,python,hardware
-student,python,learning
-mentor,python,learning
-mentor,python,learning
-student,python,learning
-mentor,python,learning
+student, python,learning
+mentor, python,learning
+mentor, python,learning
+student, python,learning
+mentor, python,learning
 student,python,visualisation
 student,java,cloud
 mentor,java,cloud
@@ -3606,7 +3606,7 @@ mentor,smalltalk,object oriented programming
 student,c,operating systems
 mentor,c,operating systems
 mentor,c,operating systems
-mentor,c++,desktop integration
+mentor,c++, desktop integration
 student,python,robotics
 mentor,python,robotics
 student,c++,desktop
@@ -3628,9 +3628,9 @@ mentor,c++,p2p
 mentor,c++,p2p
 student,c/c++,machine learning
 mentor,c/c++,machine learning
-student,java,natural language processing
-mentor,java,natural language processing
-mentor,java,natural language processing
+student, java,natural language processing
+mentor, java,natural language processing
+mentor, java,natural language processing
 student,python,hardware
 mentor,python,hardware
 mentor,python,hardware
@@ -3640,8 +3640,8 @@ student,llvm,compiler
 mentor,llvm,compiler
 mentor,llvm,compiler
 mentor,r-project,data science
-student,python,learning
-mentor,python,learning
+student, python,learning
+mentor, python,learning
 student,python,hardware
 mentor,python,hardware
 mentor,python,hardware
@@ -3682,9 +3682,9 @@ mentor,ruby on rails,asynchronous
 student,python,cubesats
 mentor,python,cubesats
 mentor,python,cubesats
-student,java,natural language processing
-mentor,java,natural language processing
-mentor,java,natural language processing
+student, java,natural language processing
+mentor, java,natural language processing
+mentor, java,natural language processing
 student,java,programmer productivity
 mentor,java,programmer productivity
 student,python,particle physics
@@ -3705,8 +3705,8 @@ mentor,c++,office suite
 student,python,hardware
 mentor,python,hardware
 student,c,operating systems
-student,python,learning
-mentor,python,learning
+student, python,learning
+mentor, python,learning
 student,c,kernel
 student,python,particle physics
 mentor,python,particle physics
@@ -3714,30 +3714,30 @@ student,c,real time
 mentor,c,real time
 mentor,c,real time
 student,c++,computational geometry
-student,python,genomics
-student,java,program analysis
-mentor,java,program analysis
-mentor,java,program analysis
+student, python,genomics
+student,java,program analysis 
+mentor,java,program analysis 
+mentor,java,program analysis 
 student,c++,video
 mentor,c++,video
 student,js,web
 mentor,c,compiler
 student,python,cubesats
 student,java,mobile apps
-student,java,program analysis
+student,java,program analysis 
 student,python,scientific visualization
 mentor,python,scientific visualization
 mentor,c++,video
 student,c,multimedia
 mentor,c,multimedia
-student,c++,computer graphics
-mentor,c++,computer graphics
+student,c++, computer graphics
+mentor,c++, computer graphics
 student,c,multimedia
 mentor,c,multimedia
-mentor,python,honeypots
-student,python,honeypots
-mentor,python,honeypots
-mentor,python,honeypots
+mentor,python 3,honeypots
+student,python 3,honeypots
+mentor,python 3,honeypots
+mentor,python 3,honeypots
 student,c,other
 mentor,c,other
 mentor,c,other
@@ -3849,11 +3849,11 @@ student,javascript,open web
 mentor,javascript,open web
 student,golang,real time communications
 mentor,golang,real time communications
-mentor,python,python
-mentor,python,python
-student,python,python
-mentor,python,python
-mentor,python,python
+mentor,python 3,python
+mentor,python 3,python
+student,python 3,python
+mentor,python 3,python
+mentor,python 3,python
 mentor,python,computational biology
 mentor,linux kernel,firewall
 student,c/c++,robotics
@@ -3861,19 +3861,19 @@ mentor,c/c++,robotics
 student,postgis,gis
 mentor,postgis,gis
 mentor,postgis,gis
-student,javascript,chat
-mentor,javascript,chat
-mentor,javascript,chat
+student, javascript,chat
+mentor, javascript,chat
+mentor, javascript,chat
 student,c++,game engine
 mentor,c++,game engine
 mentor,c++,game engine
 mentor,ruby,programming languages
-student,python,python
-mentor,python,python
-mentor,python,python
-student,python,mathematics
-mentor,python,mathematics
-mentor,python,mathematics
+student,python 3,python
+mentor,python 3,python
+mentor,python 3,python
+student,python 3,mathematics
+mentor,python 3,mathematics
+mentor,python 3,mathematics
 student,c++,machine translation
 mentor,c++,machine translation
 mentor,c++,machine translation
@@ -3893,9 +3893,9 @@ mentor,ruby on rails,media server
 mentor,ruby on rails,media server
 mentor,ruby on rails,media server
 mentor,python,biomedical data science
-student,javascript,chat
-mentor,javascript,chat
-mentor,javascript,chat
+student, javascript,chat
+mentor, javascript,chat
+mentor, javascript,chat
 student,ruby on rails,media server
 mentor,ruby on rails,media server
 student,java,creative coding
@@ -3953,8 +3953,8 @@ student,c,free software
 mentor,c,free software
 mentor,c++,machine learning
 mentor,c++,machine learning
-student,python,honeypots
-mentor,python,honeypots
+student,python 3,honeypots
+mentor,python 3,honeypots
 student,java,code analysis
 mentor,java,code analysis
 mentor,java,code analysis
@@ -3973,7 +3973,7 @@ student,javascript,operating system
 mentor,javascript,operating system
 mentor,python,multimedia
 mentor,python,multimedia
-mentor,ruby on rails,web
+mentor,ruby on rails, web
 student,python,web development
 mentor,python,web development
 student,c,kernel
@@ -3993,8 +3993,8 @@ student,java,web development
 mentor,java,web development
 mentor,java,web development
 mentor,java,web development
-student,java,open source
-mentor,java,open source
+student, java,open source
+mentor, java,open source
 mentor,fpga,open hardware
 mentor,fpga,open hardware
 mentor,android,iot
@@ -4054,9 +4054,9 @@ mentor,python,neuroscience
 mentor,python,neuroscience
 mentor,python,neuroscience
 mentor,python,neuroscience
-student,java,web apps
-mentor,java,web apps
-mentor,java,web apps
+student,java, web apps
+mentor,java, web apps
+mentor,java, web apps
 mentor,kubernetes,cloud
 student,java,web development
 mentor,java,web development
@@ -4084,9 +4084,9 @@ student,javascript,real-time
 mentor,javascript,real-time
 student,r-project,data science
 mentor,r-project,data science
-student,python,artificial intelligence
-mentor,python,artificial intelligence
-student,python,mathematics
+student, python,artificial intelligence
+mentor, python,artificial intelligence
+student,python 3,mathematics
 student,python,multimedia
 mentor,python,multimedia
 mentor,python,multimedia
@@ -4117,10 +4117,10 @@ mentor,django,code analysis
 mentor,django,code analysis
 mentor,django,code analysis
 mentor,django,code analysis
-mentor,java,devops
-mentor,java,devops
-mentor,java,devops
-mentor,java,devops
+mentor, java,devops
+mentor, java,devops
+mentor, java,devops
+mentor, java,devops
 student,c,science
 mentor,c,science
 mentor,c,science
@@ -4136,7 +4136,7 @@ mentor,llvm,compilers
 student,react,search
 mentor,react,search
 mentor,react,search
-mentor,java,education
+mentor, java,education
 mentor,django,code analysis
 mentor,django,code analysis
 mentor,django,code analysis
@@ -4225,8 +4225,8 @@ mentor,c/c++,particle physics
 mentor,c/c++,particle physics
 mentor,c/c++,particle physics
 mentor,django,code analysis
-mentor,java,education
-mentor,java,education
+mentor, java,education
+mentor, java,education
 mentor,c/c++,particle physics
 mentor,c/c++,particle physics
 mentor,c/c++,particle physics
@@ -4245,8 +4245,8 @@ student,erlang,distributed computing
 mentor,erlang,distributed computing
 student,react,search
 mentor,react,search
-student,kubernetes,earth data
-mentor,kubernetes,earth data
+student, kubernetes,earth data
+mentor, kubernetes,earth data
 mentor,ros,robotics
 student,python,communications
 mentor,python,communications
@@ -4271,8 +4271,8 @@ mentor,r-project,data science
 student,c/c++,mapping
 mentor,c/c++,mapping
 mentor,c/c++,mapping
-student,python,mathematics
-mentor,python,mathematics
+student,python 3,mathematics
+mentor,python 3,mathematics
 student,python,government
 mentor,python,government
 mentor,python,government
@@ -4306,10 +4306,10 @@ mentor,lua,programming languages
 student,java,web development
 mentor,java,web development
 mentor,java,web development
-student,java,game
-mentor,java,game
-mentor,java,game
-mentor,java,game
+student, java,game
+mentor, java,game
+mentor, java,game
+mentor, java,game
 student,java,web development
 mentor,java,web development
 mentor,java,web development
@@ -4354,9 +4354,9 @@ mentor,python,programming languages
 student,c/c++,networking
 mentor,c/c++,networking
 mentor,c/c++,networking
-student,directx,compatibility
-mentor,directx,compatibility
-mentor,directx,compatibility
+student, directx,compatibility
+mentor, directx,compatibility
+mentor, directx,compatibility
 student,qt,applications
 mentor,qt,applications
 mentor,qt,applications
@@ -4373,11 +4373,11 @@ mentor,c++,search
 student,javascript,open web
 student,ruby on rails,science
 mentor,ruby on rails,science
-student,python,honeypots
-mentor,python,honeypots
-student,python,honeypots
-mentor,python,honeypots
-student,python,honeypots
+student,python 3,honeypots
+mentor,python 3,honeypots
+student,python 3,honeypots
+mentor,python 3,honeypots
+student,python 3,honeypots
 mentor,android,iot
 mentor,android,iot
 mentor,android,iot
@@ -4389,7 +4389,7 @@ student,openwrt,network
 mentor,openwrt,network
 mentor,openwrt,network
 mentor,javascript,operating system
-mentor,java,testing
+mentor, java,testing
 student,c/c++,virtualization
 mentor,c/c++,virtualization
 mentor,c/c++,virtualization
@@ -4409,10 +4409,10 @@ student,r,bioinformatics
 mentor,r,bioinformatics
 student,r-project,data science
 mentor,r-project,data science
-student,java,data analytics
-mentor,java,data analytics
-mentor,java,data analytics
-mentor,java,data analytics
+student, java,data analytics
+mentor, java,data analytics
+mentor, java,data analytics
+mentor, java,data analytics
 mentor,erlang,distributed computing
 student,ruby on rails,science
 mentor,ruby on rails,science
@@ -4453,11 +4453,11 @@ mentor,java,web development
 mentor,java,web development
 mentor,c,kernel
 mentor,c,kernel
-student,java,open source
-mentor,java,open source
-mentor,java,open source
-student,javascript,simulation
-mentor,javascript,simulation
+student, java,open source
+mentor, java,open source
+mentor, java,open source
+student, javascript,simulation
+mentor, javascript,simulation
 student,java,web development
 mentor,java,web development
 mentor,java,web development
@@ -4491,11 +4491,11 @@ mentor,python,statistical computing
 student,android,iot
 mentor,android,iot
 mentor,android,iot
-student,java,game
-mentor,java,game
-mentor,java,game
-mentor,java,game
-mentor,java,game
+student, java,game
+mentor, java,game
+mentor, java,game
+mentor, java,game
+mentor, java,game
 student,c,other
 mentor,c,other
 student,qt,applications
@@ -4528,16 +4528,16 @@ mentor,c++,computational geometry
 student,javascript,open web
 student,xia,computer networking
 mentor,xia,computer networking
-mentor,python,natural language processing
-mentor,python,natural language processing
+mentor, python,natural language processing
+mentor, python,natural language processing
 student,scala,logic
 mentor,scala,logic
 mentor,scala,logic
 mentor,java,program analysis
 mentor,java,program analysis
-mentor,java,game
-mentor,java,game
-mentor,javascript,simulation
+mentor, java,game
+mentor, java,game
+mentor, javascript,simulation
 student,c/c++,mapping
 mentor,c/c++,mapping
 mentor,c/c++,mapping
@@ -4580,11 +4580,11 @@ mentor,java,fintech
 student,c,other
 mentor,c,other
 student,c,other
-mentor,python,artificial intelligence
-student,python,artificial intelligence
-mentor,python,artificial intelligence
-mentor,java,web development
-mentor,java,web development
+mentor, python,artificial intelligence
+student, python,artificial intelligence
+mentor, python,artificial intelligence
+mentor, java,web development
+mentor, java,web development
 student,qt,applications
 mentor,qt,applications
 mentor,qt,applications
@@ -4619,17 +4619,17 @@ mentor,python,computational biology
 student,r-project,data science
 mentor,r-project,data science
 mentor,r-project,data science
-mentor,shell script,operating systems
-mentor,shell script,operating systems
+mentor, shell script,operating systems
+mentor, shell script,operating systems
 student,c/c++,mapping
 student,haskell,functional-programming
 mentor,haskell,functional-programming
 mentor,c,animation
-student,java,game
-mentor,java,game
-mentor,java,game
-mentor,java,game
-mentor,java,game
+student, java,game
+mentor, java,game
+mentor, java,game
+mentor, java,game
+mentor, java,game
 student,python,communications
 mentor,python,communications
 mentor,python,communications
@@ -4674,21 +4674,21 @@ mentor,scala,logic
 student,java,programming language
 mentor,java,programming language
 mentor,java,programming language
-student,python,honeypots
-mentor,python,honeypots
-mentor,python,honeypots
-mentor,python,honeypots
+student,python 3,honeypots
+mentor,python 3,honeypots
+mentor,python 3,honeypots
+mentor,python 3,honeypots
 student,python,web development
-student,java,game
-mentor,java,game
-mentor,java,game
-mentor,java,game
+student, java,game
+mentor, java,game
+mentor, java,game
+mentor, java,game
 student,c,other
 mentor,c,other
-student,python,python
-mentor,python,python
-mentor,python,python
-mentor,python,python
+student,python 3,python
+mentor,python 3,python
+mentor,python 3,python
+mentor,python 3,python
 student,c++,software defined radio
 mentor,c++,software defined radio
 mentor,c++,software defined radio
@@ -4705,8 +4705,8 @@ mentor,python,mathematics
 student,javascript,operating system
 mentor,javascript,operating system
 mentor,javascript,operating system
-student,python,python
-mentor,python,python
+student,python 3,python
+mentor,python 3,python
 student,scala,logic
 mentor,scala,logic
 mentor,scala,logic
@@ -4714,11 +4714,11 @@ mentor,scala,logic
 student,ruby on rails,media server
 mentor,ruby on rails,media server
 mentor,ruby on rails,media server
-student,java,open source
-mentor,java,open source
-mentor,java,open source
-mentor,c,kernel
-mentor,c,kernel
+student, java,open source
+mentor, java,open source
+mentor, java,open source
+mentor,c, kernel
+mentor,c, kernel
 student,python,statistical computing
 mentor,python,statistical computing
 mentor,python,statistical computing
@@ -4739,9 +4739,9 @@ mentor,haskell,functional-programming
 mentor,haskell,functional-programming
 student,mariadb,database
 mentor,mariadb,database
-student,python,honeypots
-mentor,python,honeypots
-mentor,python,honeypots
+student,python 3,honeypots
+mentor,python 3,honeypots
+mentor,python 3,honeypots
 student,c++,hpc
 mentor,c++,hpc
 mentor,c++,hpc
@@ -4802,8 +4802,8 @@ student,java,network analysis
 mentor,java,network analysis
 mentor,java,network analysis
 mentor,java,network analysis
-student,java,web apps
-mentor,java,web apps
+student,java, web apps
+mentor,java, web apps
 student,python,computational biology
 mentor,python,computational biology
 mentor,python,computational biology
@@ -4853,7 +4853,7 @@ mentor,qt,applications
 student,python,cubesats
 mentor,python,cubesats
 mentor,python,cubesats
-mentor,python,honeypots
+mentor,python 3,honeypots
 student,javascript,accessibility
 mentor,javascript,accessibility
 student,c/c++,virtualization
@@ -4870,10 +4870,10 @@ student,ruby,package managers
 student,c,free software
 mentor,c,free software
 mentor,c,free software
-student,c,kernel
-mentor,c,kernel
-mentor,c,kernel
-mentor,c,kernel
+student,c, kernel
+mentor,c, kernel
+mentor,c, kernel
+mentor,c, kernel
 student,php,wikipedia
 mentor,php,wikipedia
 mentor,php,wikipedia
@@ -4890,8 +4890,8 @@ mentor,machine learning,python
 student,python,statistical computing
 mentor,python,statistical computing
 mentor,python,statistical computing
-mentor,java,web development
-mentor,java,web development
+mentor, java,web development
+mentor, java,web development
 mentor,javascript,open web
 student,c,kernel
 mentor,c,kernel
@@ -4913,7 +4913,7 @@ mentor,c/c++,particle physics
 mentor,c/c++,particle physics
 student,php,web
 mentor,php,web
-mentor,ruby on rail,web
+mentor,ruby on rail, web
 mentor,python,computational biology
 mentor,python,computational biology
 mentor,python,computational biology
@@ -4938,10 +4938,10 @@ mentor,php,wikipedia
 mentor,qt,applications
 student,c,desktop
 mentor,c,desktop
-student,javascript,chat
-mentor,javascript,chat
-mentor,javascript,chat
-mentor,javascript,chat
+student, javascript,chat
+mentor, javascript,chat
+mentor, javascript,chat
+mentor, javascript,chat
 student,android,offline
 mentor,android,offline
 student,fpga,open hardware
@@ -4952,10 +4952,10 @@ student,c,media
 mentor,c,media
 mentor,c,media
 student,lua,text editor
-student,javascript,scientific visualization
-mentor,javascript,scientific visualization
-mentor,javascript,scientific visualization
-mentor,javascript,scientific visualization
+student, javascript, scientific visualization
+mentor, javascript, scientific visualization
+mentor, javascript, scientific visualization
+mentor, javascript, scientific visualization
 student,django,code analysis
 mentor,django,code analysis
 mentor,django,code analysis
@@ -4963,15 +4963,15 @@ mentor,django,code analysis
 student,rust,text editing
 mentor,rust,text editing
 mentor,rust,text editing
-mentor,java,open source
-mentor,java,open source
+mentor, java,open source
+mentor, java,open source
 student,javascript,data visualization
 student,scala,logic
 mentor,scala,logic
 mentor,scala,logic
 mentor,scala,logic
-student,ruby on rails,web
-mentor,ruby on rails,web
+student,ruby on rails, web
+mentor,ruby on rails, web
 mentor,python,statistical computing
 mentor,python,statistical computing
 mentor,python,statistical computing
@@ -5013,9 +5013,9 @@ mentor,python,visualization
 mentor,python,visualization
 student,erlang,distributed computing
 mentor,erlang,distributed computing
-student,java,web apps
-mentor,java,web apps
-mentor,java,web apps
+student,java, web apps
+mentor,java, web apps
+mentor,java, web apps
 student,angularjs,education
 student,haskell,functional-programming
 mentor,haskell,functional-programming
@@ -5023,9 +5023,9 @@ mentor,haskell,functional-programming
 mentor,c/c++,robotics
 mentor,c/c++,robotics
 student,ruby,security
-student,java,game
-mentor,java,game
-mentor,java,game
+student, java,game
+mentor, java,game
+mentor, java,game
 student,ros,robotics
 mentor,ros,robotics
 mentor,ros,robotics
@@ -5045,9 +5045,9 @@ mentor,python,statistical computing
 student,python,education
 mentor,python,education
 mentor,python,education
-student,java,web apps
-mentor,java,web apps
-mentor,java,web apps
+student,java, web apps
+mentor,java, web apps
+mentor,java, web apps
 student,java,web development
 mentor,java,web development
 mentor,java,web development
@@ -5071,10 +5071,10 @@ mentor,c,fonts
 mentor,c,fonts
 student,django,code analysis
 mentor,django,code analysis
-student,javascript,chat
-mentor,javascript,chat
-mentor,javascript,chat
-mentor,javascript,chat
+student, javascript,chat
+mentor, javascript,chat
+mentor, javascript,chat
+mentor, javascript,chat
 student,ros,robotics
 mentor,ros,robotics
 student,python,programming languages
@@ -5113,8 +5113,8 @@ mentor,c/c++,robotics
 student,qt,applications
 mentor,qt,applications
 mentor,javascript,biological networks
-mentor,java,devops
-mentor,java,devops
+mentor, java,devops
+mentor, java,devops
 student,java,real time communications
 mentor,java,real time communications
 mentor,java,real time communications
@@ -5172,13 +5172,13 @@ mentor,openwrt,network
 student,c++,end user applications
 mentor,c++,end user applications
 mentor,c++,end user applications
-student,python,python
-mentor,python,python
-mentor,python,python
+student,python 3,python
+mentor,python 3,python
+mentor,python 3,python
 student,c,desktop
 mentor,c,desktop
-mentor,python,honeypots
-mentor,python,honeypots
+mentor,python 3,honeypots
+mentor,python 3,honeypots
 student,c++,end user applications
 mentor,c++,end user applications
 mentor,c,desktop
@@ -5191,8 +5191,8 @@ student,c++,machine learning
 mentor,c++,machine learning
 student,openwrt,network
 mentor,openwrt,network
-mentor,java,open source
-mentor,java,open source
+mentor, java,open source
+mentor, java,open source
 mentor,python,cubesats
 mentor,python,cubesats
 mentor,lua,programming language
@@ -5210,9 +5210,9 @@ mentor,php,civil society
 student,c,science
 mentor,c,science
 mentor,c,science
-student,java,web apps
-mentor,java,web apps
-mentor,java,web apps
+student,java, web apps
+mentor,java, web apps
+mentor,java, web apps
 mentor,python,statistical computing
 mentor,python,statistical computing
 mentor,python,statistical computing
@@ -5242,9 +5242,9 @@ mentor,ios,mobile applications
 mentor,ios,mobile applications
 student,scala,logic
 mentor,scala,logic
-student,java,open source
-mentor,java,open source
-mentor,java,open source
+student, java,open source
+mentor, java,open source
+mentor, java,open source
 mentor,c/c++,networking
 mentor,django,code analysis
 mentor,django,code analysis
@@ -5276,10 +5276,10 @@ mentor,python,education
 student,c++,software defined radio
 mentor,c++,software defined radio
 mentor,c++,software defined radio
-student,python,honeypots
-mentor,python,honeypots
-mentor,python,honeypots
-mentor,python,honeypots
+student,python 3,honeypots
+mentor,python 3,honeypots
+mentor,python 3,honeypots
+mentor,python 3,honeypots
 student,python,programming languages
 mentor,python,programming languages
 mentor,python,programming languages
@@ -5344,10 +5344,10 @@ mentor,python,multimedia
 mentor,python,multimedia
 student,java,education
 mentor,java,education
-student,java,game
-mentor,java,game
-mentor,java,game
-mentor,java,game
+student, java,game
+mentor, java,game
+mentor, java,game
+mentor, java,game
 student,python,education
 mentor,python,education
 mentor,python,education
@@ -5372,8 +5372,8 @@ mentor,ruby,visualization
 mentor,c++,machine learning
 student,python,statistical computing
 mentor,python,statistical computing
-student,python,honeypots
-mentor,python,honeypots
+student,python 3,honeypots
+mentor,python 3,honeypots
 student,angularjs,education
 mentor,php,licensing
 mentor,php,licensing
@@ -5393,7 +5393,7 @@ student,ruby on rails,science
 mentor,ruby on rails,science
 mentor,ruby on rails,science
 mentor,ruby on rails,science
-student,java,open source
+student, java,open source
 student,python,statistical computing
 mentor,python,statistical computing
 mentor,python,statistical computing
@@ -5409,15 +5409,15 @@ mentor,perl,computer vision
 student,c++,mathematics
 mentor,c++,mathematics
 mentor,c++,mathematics
-student,android,mobile
-mentor,android,mobile
+student, android,mobile
+mentor, android,mobile
 student,qt,applications
 mentor,qt,applications
 mentor,qt,applications
 student,java,fintech
 mentor,java,fintech
-student,python,artificial intelligence
-mentor,python,artificial intelligence
+student, python,artificial intelligence
+mentor, python,artificial intelligence
 student,python,web applications
 mentor,python,web applications
 student,python,apis
@@ -5507,8 +5507,8 @@ student,java,application security
 mentor,java,application security
 mentor,java,application security
 mentor,java,application security
-mentor,directx,compatibility
-mentor,directx,compatibility
+mentor, directx,compatibility
+mentor, directx,compatibility
 student,javascript,operating system
 mentor,javascript,operating system
 mentor,javascript,operating system
@@ -5536,9 +5536,9 @@ mentor,c,emulation
 student,java,network analysis
 mentor,java,network analysis
 mentor,java,network analysis
-student,java,open source
-mentor,java,open source
-mentor,java,open source
+student, java,open source
+mentor, java,open source
+mentor, java,open source
 student,java,fintech
 mentor,java,fintech
 mentor,java,fintech
@@ -5603,18 +5603,18 @@ mentor,r,bioinformatics
 mentor,javascript,operating system
 mentor,qt,applications
 mentor,qt,applications
-mentor,python,honeypots
-mentor,python,honeypots
+mentor,python 3,honeypots
+mentor,python 3,honeypots
 student,qt,applications
 mentor,qt,applications
 mentor,qt,applications
-mentor,shell script,operating systems
+mentor, shell script,operating systems
 student,python,visualization
 mentor,python,visualization
 mentor,python,visualization
-student,c,kernel
-mentor,c,kernel
-mentor,c,kernel
+student,c, kernel
+mentor,c, kernel
+mentor,c, kernel
 student,c/c++,robotics
 mentor,c/c++,robotics
 student,php,wikipedia
@@ -5649,9 +5649,9 @@ student,ios,mobile applications
 student,c/c++,gnss
 mentor,c/c++,gnss
 mentor,c/c++,gnss
-mentor,java,data analytics
-mentor,java,data analytics
-mentor,java,data analytics
+mentor, java,data analytics
+mentor, java,data analytics
+mentor, java,data analytics
 student,java,genomics
 mentor,java,genomics
 student,r,bioinformatics
@@ -5666,14 +5666,14 @@ mentor,python,programming languages
 mentor,python,programming languages
 student,c/c++,cad
 mentor,postgresql,biology
-student,python,python
-mentor,python,python
-mentor,python,python
-mentor,python,python
+student,python 3,python
+mentor,python 3,python
+mentor,python 3,python
+mentor,python 3,python
 student,c,emulation
 mentor,c,emulation
-mentor,java,education
-mentor,java,education
+mentor, java,education
+mentor, java,education
 student,java,logging
 mentor,java,logging
 mentor,r-project,data science
@@ -5685,8 +5685,8 @@ mentor,python,multimedia
 mentor,python,multimedia
 student,c,multimedia
 mentor,c,multimedia
-student,python,mathematics
-mentor,python,mathematics
+student,python 3,mathematics
+mentor,python 3,mathematics
 student,fpga,vision
 mentor,fpga,vision
 student,c/c++,robotics
@@ -5708,8 +5708,8 @@ student,c/c++,particle physics
 mentor,c/c++,particle physics
 mentor,c/c++,particle physics
 mentor,c/c++,particle physics
-student,kubernetes,earth data
-mentor,kubernetes,earth data
+student, kubernetes,earth data
+mentor, kubernetes,earth data
 student,c,fonts
 mentor,c,fonts
 mentor,c,fonts
@@ -5730,20 +5730,20 @@ mentor,python,government
 student,java,network analysis
 mentor,java,network analysis
 mentor,java,network analysis
-student,java,game
-mentor,java,game
-mentor,java,game
-mentor,java,game
-student,c/c++,3d
-mentor,c/c++,3d
-student,python,data visualization
-mentor,python,data visualization
-student,python,data visualization
-mentor,python,data visualization
-mentor,python,data visualization
-student,java,open source
-mentor,java,open source
-mentor,java,open source
+student, java,game
+mentor, java,game
+mentor, java,game
+mentor, java,game
+student,c/c++, 3d
+mentor,c/c++, 3d
+student,python 3,data visualization
+mentor,python 3,data visualization
+student,python 3,data visualization
+mentor,python 3,data visualization
+mentor,python 3,data visualization
+student, java,open source
+mentor, java,open source
+mentor, java,open source
 student,python,high performance computing
 mentor,python,high performance computing
 mentor,python,high performance computing
@@ -5758,11 +5758,11 @@ student,scala,logic
 mentor,scala,logic
 mentor,scala,logic
 mentor,scala,logic
-student,javascript,chat
-mentor,javascript,chat
-mentor,javascript,chat
-mentor,javascript,chat
-mentor,javascript,chat
+student, javascript,chat
+mentor, javascript,chat
+mentor, javascript,chat
+mentor, javascript,chat
+mentor, javascript,chat
 student,c/c++,particle physics
 mentor,c/c++,particle physics
 mentor,c/c++,particle physics
@@ -5804,10 +5804,10 @@ student,c++,games
 student,c++,desktop
 mentor,c++,desktop
 mentor,linux,diagnostic
-student,java,testing
-mentor,java,testing
-mentor,java,testing
-mentor,python,honeypots
+student, java,testing
+mentor, java,testing
+mentor, java,testing
+mentor,python 3,honeypots
 student,android,iot
 mentor,android,iot
 mentor,android,iot
@@ -5818,9 +5818,9 @@ student,javascript,open web
 student,python,education
 mentor,python,education
 mentor,python,education
-student,java,web apps
-mentor,java,web apps
-mentor,java,web apps
+student,java, web apps
+mentor,java, web apps
+mentor,java, web apps
 mentor,java,web development
 mentor,java,web development
 mentor,java,web development
@@ -5839,13 +5839,13 @@ student,c/c++,cad
 student,c++,computational geometry
 mentor,c++,computational geometry
 mentor,c++,computational geometry
-mentor,python,honeypots
+mentor,python 3,honeypots
 student,ruby on rails,science
 mentor,ruby on rails,science
 student,linux kernel,firewall
 mentor,linux kernel,firewall
-student,python,python
-mentor,python,python
+student,python 3,python
+mentor,python 3,python
 student,javascript,open web
 student,python,mathematics
 student,postgresql,sql
@@ -5868,9 +5868,9 @@ mentor,python,statistical computing
 mentor,python,statistical computing
 student,java,real time communications
 mentor,java,real time communications
-student,javascript,chat
-mentor,javascript,chat
-mentor,javascript,chat
+student, javascript,chat
+mentor, javascript,chat
+mentor, javascript,chat
 mentor,c,kernel
 student,android,iot
 mentor,android,iot
@@ -5889,11 +5889,11 @@ mentor,python,statistical computing
 student,kubernetes,cloud
 mentor,kubernetes,cloud
 mentor,kubernetes,cloud
-student,javascript,chat
-mentor,javascript,chat
-mentor,javascript,chat
-student,java,testing
-mentor,java,testing
+student, javascript,chat
+mentor, javascript,chat
+mentor, javascript,chat
+student, java,testing
+mentor, java,testing
 student,python,education
 mentor,python,education
 student,python,education
@@ -5903,8 +5903,8 @@ mentor,python,education
 mentor,python,education
 student,c,audio
 mentor,c,audio
-student,android,mobile
-mentor,android,mobile
+student, android,mobile
+mentor, android,mobile
 student,haskell,functional-programming
 mentor,haskell,functional-programming
 student,c,other
@@ -5950,13 +5950,13 @@ mentor,java,web development
 mentor,java,web development
 mentor,java,web development
 mentor,java,web development
-mentor,ruby on rail,web
-student,python,natural language processing
-mentor,python,natural language processing
-mentor,python,natural language processing
+mentor,ruby on rail, web
+student, python,natural language processing
+mentor, python,natural language processing
+mentor, python,natural language processing
 mentor,c,media
-student,python,honeypots
-mentor,python,honeypots
+student,python 3,honeypots
+mentor,python 3,honeypots
 student,c,desktop
 mentor,c,desktop
 mentor,python,statistical computing
@@ -5964,9 +5964,9 @@ mentor,python,statistical computing
 mentor,python,statistical computing
 student,python,natural language processing
 mentor,python,natural language processing
-student,java,game
-mentor,java,game
-mentor,java,game
+student, java,game
+mentor, java,game
+mentor, java,game
 mentor,c++,desktop
 student,scala,logic
 mentor,scala,logic
@@ -5976,5 +5976,2548 @@ student,python,visualization
 mentor,python,visualization
 student,c/c++,networking
 mentor,c/c++,networking
-student,python,honeypots
+student,python 3,honeypots
 student,c++,game engine
+student,c99,video
+mentor,c99,video
+mentor,c99,video
+student, javascript,gis
+mentor, javascript,gis
+mentor, javascript,gis
+student, c/c++,compilers
+mentor, c/c++,compilers
+mentor, c/c++,compilers
+mentor, c/c++,compilers
+student, java,cloud
+mentor, java,cloud
+student,c++,privacy
+mentor,c++,privacy
+mentor,c++,privacy
+student,operating systems,gnu
+mentor,operating systems,gnu
+student, java,cloud
+mentor, java,cloud
+student,ruby on rails,science
+mentor,ruby on rails,science
+mentor,ruby on rails,science
+mentor,ruby on rails,science
+mentor,ruby on rails,science
+mentor,ruby on rails,science
+mentor,python,robotics
+mentor,python,robotics
+mentor,python,robotics
+student,haskell,haskell
+mentor,haskell,haskell
+mentor,haskell,haskell
+student, apache spark,semantic web
+mentor, apache spark,semantic web
+mentor, apache spark,semantic web
+mentor, apache spark,semantic web
+student,shell script,operating systems
+mentor,shell script,operating systems
+student,r-project,data science
+mentor,r-project,data science
+mentor,r-project,data science
+student,python,earth observation
+mentor,python,earth observation
+mentor,python,earth observation
+student, ros,robotics
+mentor, ros,robotics
+mentor,ruby on rails,science
+mentor,ruby on rails,science
+student,haskell,haskell
+mentor,haskell,haskell
+mentor,haskell,haskell
+student,opengl,graphics stack
+student,nlp,multimedia
+mentor,nlp,multimedia
+student,c++,chemistry
+mentor,c++,chemistry
+mentor,c++,chemistry
+student,javascript,data analytics
+mentor,javascript,data analytics
+student,javascript,internet freedom
+student,ros,robotics
+mentor,c,kernel
+mentor,python,computational biology
+mentor,python,computational biology
+student,python,web development
+mentor,python,web development
+mentor,python,web development
+mentor,python,web development
+mentor,python,web development
+student,c,printing
+student,c/c++,real time
+mentor,c/c++,real time
+mentor,c/c++,real time
+mentor,c/c++,real time
+student,python,programming languages
+mentor,python,programming languages
+mentor,python,programming languages
+mentor,python,programming languages
+mentor,c,kernel
+mentor,c,kernel
+student,php,wikipedia
+mentor,php,wikipedia
+student, javascript,collaboration
+mentor, javascript,collaboration
+mentor, javascript,collaboration
+student,python,programming languages
+mentor,python,programming languages
+student, c/c++,compilers
+mentor, c/c++,compilers
+mentor, c/c++,compilers
+student,kubernetes,cloud
+mentor,kubernetes,cloud
+mentor,kubernetes,cloud
+student,mariadb,databases
+student,r-project,data science
+mentor,r-project,data science
+mentor,r-project,data science
+mentor,golang, devops
+mentor,golang, devops
+student,python 3,email
+mentor,python 3,email
+student,kubernetes,cloud
+mentor,kubernetes,cloud
+mentor,kubernetes,cloud
+student,r-project,data science
+mentor,r-project,data science
+mentor,r-project,data science
+mentor,r-project,data science
+student,kubernetes,cloud
+mentor,kubernetes,cloud
+mentor,kubernetes,cloud
+student,c,fonts
+mentor,c,fonts
+student,python,visualisation
+student,machine learning,deep learning
+mentor,machine learning,deep learning
+student,python,computational biology
+mentor,python,computational biology
+mentor,python,computational biology
+student,python,programming languages
+mentor,python,programming languages
+mentor,python,programming languages
+mentor,c/c++,real time
+mentor,c/c++,real time
+mentor,c/c++,real time
+student,python,honeynets
+mentor,python,honeynets
+mentor,machine learning,deep learning
+mentor,machine learning,deep learning
+mentor, c/c++,gis
+student,ruby,programming languages
+mentor,ruby,programming languages
+mentor,ruby,programming languages
+student,machine learning,deep learning
+mentor,machine learning,deep learning
+mentor,c++ libraries c++11 c++14 c++17 c++20,c++ libraries c++ standard
+mentor,c++ libraries c++11 c++14 c++17 c++20,c++ libraries c++ standard
+student,rails,web
+mentor,rails,web
+mentor,rails,web
+student,ruby,scientific computing
+mentor,ruby,scientific computing
+mentor,ruby,scientific computing
+student,c,network security
+student,java,cloud
+mentor,java,cloud
+mentor,java,cloud
+student,php, education
+mentor,php, education
+student, ros,robotics
+mentor, ros,robotics
+student,r-project,data science
+mentor,r-project,data science
+mentor,r-project,data science
+mentor,r-project,data science
+mentor,r-project,data science
+student,python,honeynets
+mentor,python,honeynets
+mentor,python,honeynets
+student,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,java,cloud
+student,c,fonts
+mentor,c,fonts
+student,machine learning,deep learning
+mentor,machine learning,deep learning
+student,julia,technical computing
+mentor,julia,technical computing
+mentor,julia,technical computing
+mentor,julia,technical computing
+student,java,genomics
+mentor,java,genomics
+mentor, python,open source
+mentor, python,open source
+student,c++,machine learning
+mentor,c++,machine learning
+student,javascript,web application
+mentor,javascript,web application
+mentor,javascript,web application
+student,python,bots
+student, python,natural language processing
+mentor, python,natural language processing
+student,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+student,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,c++,privacy
+mentor,c++,privacy
+mentor,c++,privacy
+student,python,geo
+mentor,python,geo
+mentor,python,geo
+student,drones,vison
+mentor,drones,vison
+mentor,drones,vison
+student,python,robotics
+mentor,python,robotics
+mentor,python,robotics
+mentor, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+student, javascript,collaboration
+mentor, javascript,collaboration
+mentor, javascript,collaboration
+mentor,c++,vision
+student,golang,media server
+mentor,golang,media server
+student,golang,media server
+mentor,golang,media server
+mentor,golang,media server
+student,java,visual programming
+mentor,java,visual programming
+mentor,java,visual programming
+mentor,java,visual programming
+mentor,mariadb,databases
+student,lua,scripting languages
+student,machine learning,deep learning
+student,c++,privacy
+mentor,c++,privacy
+mentor,c++,privacy
+student,r-project,data science
+mentor,r-project,data science
+mentor,r-project,data science
+student,verilog,hardware
+student,c++,machine translation
+mentor,c++,machine translation
+mentor,c++,machine translation
+student,java,networking
+mentor,java,networking
+student,golang,media server
+mentor,golang,media server
+student,android,fintech
+mentor,android,fintech
+mentor,android,fintech
+student,git, operating system
+mentor,git, operating system
+mentor,git, operating system
+student,git, operating system
+mentor,git, operating system
+mentor,java,pragrammer productivity
+mentor,java,pragrammer productivity
+student,python,information security
+mentor,java,pragrammer productivity
+mentor,java,pragrammer productivity
+mentor,java,pragrammer productivity
+student,nlp,multimedia
+mentor,nlp,multimedia
+mentor,nlp,multimedia
+student,python,robotics
+mentor,python,robotics
+mentor,python,robotics
+mentor,python,robotics
+student,python,computational biology
+mentor,python,computational biology
+student,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,java,game
+mentor,java,game
+student,java,network biology
+mentor,java,network biology
+student,qt,music
+mentor,java,ide
+student,c++,machine learning
+mentor,c++,machine learning
+mentor,c++,machine learning
+student,python,scientific computing
+mentor,python,scientific computing
+mentor,python,scientific computing
+student,llvm,programming languages and development tools
+mentor,llvm,programming languages and development tools
+mentor,llvm,programming languages and development tools
+student,perl,genomics
+mentor,perl,genomics
+student,python,license-scan
+mentor,python,license-scan
+student,postgresql,data
+mentor,postgresql,data
+student,javascript,real-time system
+mentor,javascript,real-time system
+student,angularjs,education
+mentor,angularjs,education
+student,c,printing
+student,c++,game engine
+mentor,c++,game engine
+mentor, java,science and medicine
+mentor,php, education
+student,python,programming languages
+mentor,python,programming languages
+mentor,python,programming languages
+student,c/c++,ray tracing
+mentor,c/c++,ray tracing
+mentor,c/c++,ray tracing
+student,haskell,haskell
+mentor,haskell,haskell
+mentor,haskell,haskell
+mentor,nlp,multimedia
+mentor,nlp,multimedia
+mentor,nlp,multimedia
+student,php,education
+mentor,php,education
+mentor,php,education
+mentor,php,education
+student,tcl,package management
+student, java,science and medicine
+mentor, java,science and medicine
+mentor, java,science and medicine
+student,java,visual programming
+mentor,java,visual programming
+mentor,java,visual programming
+student,fpga,image processing
+mentor,fpga,image processing
+mentor,ruby on rails,web
+mentor,python,computational biology
+student,c/c++,real time
+mentor,c/c++,real time
+mentor,c/c++,real time
+student,c++,computational geometry
+mentor,c++,computational geometry
+student,python,information security
+mentor,python,information security
+mentor,python,information security
+mentor,python,bioinformatics
+mentor,python,bioinformatics
+student,python,scientific computing
+mentor,python,scientific computing
+mentor,python,scientific computing
+student,c/c++,ray tracing
+mentor,c/c++,ray tracing
+student, java,cloud
+mentor, java,cloud
+mentor, java,cloud
+mentor, java,cloud
+student,pharo,web development
+mentor,pharo,web development
+mentor,pharo,web development
+mentor,pharo,web development
+student,python,scientific computing
+mentor,python,scientific computing
+mentor,python,scientific computing
+mentor,python,scientific computing
+student,c++,privacy
+mentor,c++,privacy
+student,c,3d
+mentor,c,3d
+student,java,academia
+mentor,java,academia
+mentor,java,academia
+mentor,java,academia
+student,shell script,operating systems
+mentor,python,software defined radio
+mentor,python,software defined radio
+student,c++ libraries c++11 c++14 c++17 c++20,c++ libraries c++ standard
+mentor,c++ libraries c++11 c++14 c++17 c++20,c++ libraries c++ standard
+student,c++ libraries c++11 c++14 c++17 c++20,c++ libraries c++ standard
+mentor,c++ libraries c++11 c++14 c++17 c++20,c++ libraries c++ standard
+mentor,c++ libraries c++11 c++14 c++17 c++20,c++ libraries c++ standard
+student,c++ libraries c++11 c++14 c++17 c++20,c++ libraries c++ standard
+mentor,c++ libraries c++11 c++14 c++17 c++20,c++ libraries c++ standard
+student,c++ libraries c++11 c++14 c++17 c++20,c++ libraries c++ standard
+student,java,testing
+mentor,java,testing
+mentor,java,testing
+student, java,science and medicine
+student,java,network biology
+mentor,java,network biology
+student,python,music
+student,c++ libraries c++11 c++14 c++17 c++20,c++ libraries c++ standard
+mentor,c++ libraries c++11 c++14 c++17 c++20,c++ libraries c++ standard
+mentor,c++ libraries c++11 c++14 c++17 c++20,c++ libraries c++ standard
+mentor,c++ libraries c++11 c++14 c++17 c++20,c++ libraries c++ standard
+mentor,c++ libraries c++11 c++14 c++17 c++20,c++ libraries c++ standard
+student,javascript,copyleft
+student,c,network
+student,python,community
+mentor,python,community
+student,python,community
+mentor,python,community
+student,openapi,apis
+mentor,openapi,apis
+mentor,openapi,apis
+student,ros,robotics
+mentor,ros,robotics
+student, c/c++,physics
+mentor, c/c++,physics
+student,python,appsec
+student,ruby,programming languages
+mentor,ruby,programming languages
+mentor,lua,scripting languages
+mentor,lua,scripting languages
+student, python,mechanical engineering
+mentor, python,mechanical engineering
+mentor, python,mechanical engineering
+student, java,cloud
+mentor, java,cloud
+student, java,cloud
+mentor, java,cloud
+mentor, java,cloud
+student,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,javascript,copyleft
+mentor,javascript,copyleft
+mentor,javascript,web application
+mentor,javascript,web application
+student,java,ide
+mentor,java,ide
+mentor,java,ide
+student,python,computer vision
+mentor,python,computer vision
+mentor, c/c++,physics
+mentor, c/c++,physics
+student, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+student,python,information security
+mentor,python,information security
+mentor,python,information security
+mentor, python,containers
+student,java,testing
+mentor,java,testing
+mentor,qt,music
+student,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,perl,genomics
+mentor,perl,genomics
+student,java,network biology
+mentor,java,network biology
+student,raspberry pi,real time
+mentor,raspberry pi,real time
+mentor,raspberry pi,real time
+student,python,information security
+mentor,python,information security
+mentor,python,information security
+mentor,python,information security
+student,java,genomics
+student,c,3d
+mentor,c,3d
+mentor,c,3d
+student,virtualization,virtualization
+mentor,virtualization,virtualization
+mentor,virtualization,virtualization
+student,c++,chemistry
+mentor,c++,chemistry
+mentor,c++,chemistry
+mentor,ai,vision
+student,nlp,multimedia
+mentor,nlp,multimedia
+mentor,nlp,multimedia
+mentor,nlp,multimedia
+student,java,creative coding
+mentor,python 3,code analysis
+student,java,game
+mentor,java,game
+mentor,javascript,internet freedom
+student,python,information security
+mentor,python,information security
+mentor,python,information security
+mentor,python,information security
+mentor,python,information security
+mentor,python,information security
+mentor,rails,web
+mentor,rails,web
+mentor,ruby on rails,science
+mentor,ruby on rails,science
+mentor,ruby on rails,science
+student,php,web development
+mentor,php,web development
+mentor,python,open government
+mentor,python,open government
+student,java,creative coding
+mentor,java,creative coding
+mentor,java,creative coding
+student,c++,computational geometry
+mentor,c++,computational geometry
+student,c++,vision
+mentor,c++,vision
+mentor,android,fintech
+student,python,computer vision
+mentor,python,computer vision
+student,chapel,programming languages
+mentor,chapel,programming languages
+mentor, java,science and medicine
+mentor,java,cloud
+mentor,java,cloud
+student,c,network
+mentor,c,network
+student,postgresql,compliance
+mentor,postgresql,compliance
+mentor,postgresql,compliance
+student,c,3d
+mentor,c,3d
+student,verilog,hardware
+mentor,verilog,hardware
+mentor,verilog,hardware
+student,python,neuroscience
+mentor,python,neuroscience
+mentor,python,neuroscience
+student,php,education
+mentor,php,education
+mentor,php,education
+student,python,math
+mentor,python,math
+mentor,python,math
+student,php,mysql
+student,c,desktop
+student,machine learning,deep learning
+mentor,machine learning,deep learning
+mentor,machine learning,deep learning
+mentor,machine learning,deep learning
+mentor,machine learning,deep learning
+mentor,c,3d
+mentor,r-project,data science
+mentor,r-project,data science
+student,android,offline access
+mentor,android,offline access
+mentor,android,offline access
+mentor,android,offline access
+student,php,wikipedia
+student,python,education
+mentor,python,education
+mentor,python,education
+mentor,python,education
+mentor, c/c++,physics
+mentor, c/c++,physics
+student, c/c++,gis
+mentor, c/c++,gis
+mentor, c/c++,gis
+student,virtualization,virtualization
+mentor,virtualization,virtualization
+mentor,virtualization,virtualization
+mentor,virtualization,virtualization
+mentor,python,math
+mentor,python,math
+student,machine learning,deep learning
+mentor,machine learning,deep learning
+student,python,open government
+mentor,python,open government
+mentor,python,open government
+student, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+student,python,robotics
+mentor,python,robotics
+mentor,python,robotics
+student,javascript,copyleft
+mentor,javascript,copyleft
+mentor, python,natural language processing
+student,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,python,scientific computing
+student,java,creative coding
+mentor,c++,vision
+mentor,c++,vision
+student,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+student,python,visualisation
+mentor,python,visualisation
+student,java,ide
+mentor,java,ide
+student, java,genomics
+mentor, java,genomics
+mentor, java,genomics
+mentor,php,crm
+mentor,php,crm
+student, java,genomics
+student,python,scientific computing
+mentor,python,scientific computing
+student,machine learning,deep learning
+mentor,machine learning,deep learning
+mentor,machine learning,deep learning
+student,r-project,data science
+mentor,r-project,data science
+student,dlang,programming languages
+mentor,dlang,programming languages
+mentor,dlang,programming languages
+student,c,video
+mentor,c,video
+mentor,c,video
+student,c,video
+mentor,c,video
+student,julia,technical computing
+mentor,julia,technical computing
+student,postgresql,data
+mentor,postgresql,data
+mentor,postgresql,data
+mentor,postgresql,data
+mentor,git, operating system
+mentor,git, operating system
+student,git, operating system
+mentor,git, operating system
+mentor,git, operating system
+student,javascript,internet freedom
+mentor,javascript,internet freedom
+student,machine learning,deep learning
+student,python,cubesats
+mentor,python,cubesats
+mentor,python,cubesats
+student,c++,vision
+student,python,data integration
+mentor,python,data integration
+mentor,python,data integration
+mentor,python,neuroscience
+mentor,python,neuroscience
+student,reactjs,machine learning
+mentor,reactjs,machine learning
+mentor,reactjs,machine learning
+mentor,reactjs,machine learning
+student, javascript,collaboration
+mentor, javascript,collaboration
+mentor, javascript,collaboration
+student,c++ libraries c++11 c++14 c++17 c++20,c++ libraries c++ standard
+mentor,c++ libraries c++11 c++14 c++17 c++20,c++ libraries c++ standard
+student,python,decentralisation
+student,c99,video
+mentor,python,software analysis
+student,nlp,multimedia
+mentor,nlp,multimedia
+mentor,nlp,multimedia
+student,python 3,astronomy
+mentor,python 3,astronomy
+mentor,python 3,astronomy
+mentor,c,network
+mentor,c,network
+mentor,c++11,machine learning
+mentor,c++11,machine learning
+mentor,c++11,machine learning
+mentor,c++11,machine learning
+mentor,javascript,programming languages and development tools
+mentor,javascript,programming languages and development tools
+mentor,javascript,programming languages and development tools
+mentor,javascript,programming languages and development tools
+student,c++,machine translation
+mentor,c++,machine translation
+student,php,wikipedia
+mentor,php,wikipedia
+student,postgresql,data
+mentor,postgresql,data
+student,c,operating systems
+mentor,c,operating systems
+mentor,c,operating systems
+mentor,c,operating systems
+student,python,visualisation
+mentor,python,visualisation
+mentor,python,visualisation
+student,python,robotics
+mentor,python,robotics
+mentor,python,robotics
+mentor,python,robotics
+student, python, robotics
+mentor, python, robotics
+student, python, robotics
+mentor, python, robotics
+student,python,robotics
+mentor,python,robotics
+mentor,python,robotics
+mentor,python,robotics
+student,drones,vison
+mentor,drones,vison
+mentor,drones,vison
+student, python, robotics
+student, c/c++,physics
+mentor, c/c++,physics
+student,java,cloud
+mentor,java,cloud
+mentor,java,cloud
+mentor,java,cloud
+student,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,python,scientific computing
+student,python,programming languages
+student,c99,video
+mentor,c99,video
+mentor,c99,video
+student,julia,technical computing
+mentor,julia,technical computing
+mentor,julia,technical computing
+student,julia,technical computing
+mentor,julia,technical computing
+mentor,julia,technical computing
+student,julia,technical computing
+mentor,julia,technical computing
+mentor,python,cubesats
+mentor,python,cubesats
+student,php,education
+mentor,php,education
+student, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+student,chapel,programming languages
+mentor,chapel,programming languages
+student,c99,video
+mentor,c99,video
+student,python,networking
+mentor,python,networking
+mentor,python,networking
+student,linux,diagnostic
+mentor,linux,diagnostic
+mentor,python,information security
+mentor,python,information security
+student, c/c++,virtualization
+mentor, c/c++,virtualization
+student,python,information security
+mentor,python,information security
+mentor,java,ide
+student,java,testing
+mentor,java,testing
+mentor,java,testing
+student,c++,vision
+mentor,c++,vision
+student,java,cloud
+student,java,ide
+student,python,scientific computing
+mentor,python,scientific computing
+mentor,python,scientific computing
+student,javascript,web application
+student,python,music
+mentor,python,music
+student,python,scientific computing
+mentor,python,scientific computing
+student,python 3,filmmaking
+mentor,python 3,filmmaking
+mentor,python 3,filmmaking
+mentor,linux,diagnostic
+mentor,linux,diagnostic
+student,yocto,automotive
+student,kubernetes,cloud
+mentor,kubernetes,cloud
+student,machine learning,deep learning
+mentor,machine learning,deep learning
+mentor,machine learning,deep learning
+mentor,machine learning,deep learning
+student,c++,machine translation
+mentor,c++,machine translation
+student,python,bots
+student,python,programming languages
+mentor,python,programming languages
+mentor,python,programming languages
+mentor,python,programming languages
+mentor,python 3,machine learning
+mentor,python 3,machine learning
+mentor,python 3,machine learning
+student,python 3,code analysis
+mentor,python 3,code analysis
+mentor,python 3,code analysis
+mentor, python,open source
+mentor, python,open source
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,python,math
+mentor,python,math
+student,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,golang,media server
+mentor,golang,media server
+student,llvm,programming languages and development tools
+mentor,llvm,programming languages and development tools
+mentor,llvm,programming languages and development tools
+student,javascript,internet freedom
+mentor,javascript,internet freedom
+student,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,verilog,hardware
+mentor,verilog,hardware
+student,opengl,2d/3d graphics
+mentor,opengl,2d/3d graphics
+mentor,opengl,2d/3d graphics
+student,javascript,conference
+mentor,c,kernel
+mentor,c,kernel
+mentor,c++,computational geometry
+mentor,c++,computational geometry
+mentor,r-project,data science
+mentor,r-project,data science
+mentor,r-project,data science
+student,julia,technical computing
+mentor,julia,technical computing
+mentor,julia,technical computing
+mentor,julia,technical computing
+student,c++,privacy
+mentor,c++,privacy
+mentor,c++,privacy
+student,python,mathematics
+mentor,python,mathematics
+student,java,genomics
+mentor,java,genomics
+mentor,java,genomics
+mentor, java,education
+mentor, java,education
+mentor,python 3,machine learning
+mentor,python 3,machine learning
+mentor,python 3,machine learning
+student,python 3,machine learning
+mentor,python 3,machine learning
+mentor,python 3,machine learning
+mentor,python 3,machine learning
+mentor,python 3,machine learning
+student,python,scientific computing
+mentor,python,scientific computing
+mentor,python,scientific computing
+mentor,virtualization,virtualization
+mentor,virtualization,virtualization
+student,python,education
+mentor,python,education
+mentor,python,education
+student, c/c++,gnss
+mentor, c/c++,gnss
+mentor, c/c++,gnss
+student,python,programming languages
+mentor,python,programming languages
+mentor,python,programming languages
+student, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+student,r-project,data science
+mentor,r-project,data science
+student,c++,animation
+mentor,c++,animation
+mentor,c++,animation
+student, java,education
+mentor, java,education
+mentor, java,education
+student,fpga,image processing
+mentor,fpga,image processing
+student,python,cloud databases
+mentor,python,cloud databases
+student,verilog,hardware
+mentor,verilog,hardware
+student,scala,machine learning
+mentor,scala,machine learning
+mentor,scala,machine learning
+mentor,scala,machine learning
+student,haskell,haskell
+mentor,haskell,haskell
+mentor,haskell,haskell
+student,java,creative coding
+mentor,java,creative coding
+student,python,math
+mentor,python,math
+student,pharo,web development
+mentor,pharo,web development
+mentor,pharo,web development
+mentor,pharo,web development
+student,python,scientific computing
+mentor,python,scientific computing
+student,haskell,haskell
+mentor,haskell,haskell
+student,java,network biology
+mentor,java,network biology
+mentor,java,network biology
+student,kubernetes,cloud
+mentor,kubernetes,cloud
+student,c++,privacy
+mentor,c++,privacy
+mentor,c++,privacy
+mentor,c++,privacy
+mentor,c++,privacy
+student,c++,vision
+mentor,c++,vision
+mentor,python,information security
+mentor,python,information security
+mentor,python,information security
+student,python,information security
+mentor,python,information security
+mentor,python,information security
+mentor,python,information security
+student,kubernetes,cloud
+mentor,kubernetes,cloud
+mentor,kubernetes,cloud
+mentor,kubernetes,cloud
+student,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,nlp,multimedia
+mentor,nlp,multimedia
+mentor,nlp,multimedia
+student, python,containers
+mentor,c/c++,ray tracing
+mentor,c/c++,ray tracing
+mentor,reactjs,machine learning
+mentor,reactjs,machine learning
+mentor,reactjs,machine learning
+student,android,fintech
+mentor,android,fintech
+mentor,android,fintech
+student,c,operating systems
+mentor,c,operating systems
+mentor,c,operating systems
+mentor,ai,vision
+mentor,ai,vision
+student,r-project,data science
+mentor,r-project,data science
+mentor,r-project,data science
+mentor,r-project,data science
+student,android,fintech
+mentor,android,fintech
+student,javascript,internet freedom
+mentor,javascript,internet freedom
+student,javascript,internet freedom
+student, c/c++,virtualization
+mentor, c/c++,virtualization
+mentor, c/c++,virtualization
+student,javascript,internet freedom
+mentor,javascript,internet freedom
+student, c/c++,networking
+student,python,bioinformatics
+mentor,python,bioinformatics
+mentor,python,bioinformatics
+student,python,geo
+mentor,python,geo
+mentor,python,geo
+student,python,web development
+mentor,python,web development
+student,java,visual programming
+mentor,java,visual programming
+mentor,java,visual programming
+student,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,verilog,hardware
+student,c/c++,ray tracing
+mentor,c/c++,ray tracing
+mentor,c/c++,ray tracing
+student,python,information security
+mentor,python,information security
+mentor,python,information security
+mentor,python,information security
+student,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,haskell,haskell
+mentor,haskell,haskell
+student,drones,vison
+mentor,drones,vison
+mentor,drones,vison
+student, java,science and medicine
+student,linux,emulator
+mentor,linux,emulator
+mentor,linux,emulator
+student, c/c++,games
+student,ros,robotics
+mentor,ros,robotics
+student,ros,robotics
+mentor,ros,robotics
+mentor,ros,robotics
+mentor,c++,game engine
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+student,c++,computational geometry
+mentor,c++,computational geometry
+student,python,programming languages
+mentor,python,programming languages
+mentor,python,programming languages
+mentor, c/c++,physics
+student,c++,office suite
+mentor,c++,office suite
+mentor,c++,office suite
+student,llvm,programming languages and development tools
+mentor,llvm,programming languages and development tools
+mentor,llvm,programming languages and development tools
+student, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+student, java,genomics
+mentor, java,genomics
+student,c,printing
+mentor,c,printing
+student,nlp,multimedia
+mentor,nlp,multimedia
+mentor,nlp,multimedia
+student,c,firmware
+student,python 3,code analysis
+mentor,python 3,code analysis
+student,kubernetes,cloud
+mentor,kubernetes,cloud
+student,python,scientific computing
+mentor,python,scientific computing
+student,c,desktop
+student,operating systems,gnu
+mentor,operating systems,gnu
+student,operating systems,gnu
+mentor,operating systems,gnu
+mentor,operating systems,gnu
+mentor,python,information security
+mentor,python,information security
+mentor,python,information security
+mentor,python,information security
+mentor,c++,game engine
+student,lua,scripting languages
+mentor,lua,scripting languages
+student, java,cloud
+mentor, java,cloud
+mentor, java,cloud
+mentor, java,cloud
+student, java,cloud
+mentor, java,cloud
+mentor, java,cloud
+student,python,programming languages
+mentor,python,programming languages
+mentor,python,programming languages
+student,mysql,database optimization
+mentor,mysql,database optimization
+mentor,mysql,database optimization
+student, python,digital preservation
+mentor, python,digital preservation
+student,pharo,web development
+mentor,pharo,web development
+mentor,pharo,web development
+student,julia,technical computing
+mentor,julia,technical computing
+mentor,julia,technical computing
+mentor,julia,technical computing
+mentor,julia,technical computing
+student,python,data integration
+mentor,python,data integration
+mentor,python,data integration
+student,java,network biology
+mentor,java,network biology
+mentor,r-project,data science
+mentor,python,robotics
+mentor,python,robotics
+mentor,python,robotics
+mentor,python,robotics
+student,r-project,data science
+mentor,r-project,data science
+mentor,r-project,data science
+student,python,math
+mentor,python,math
+student, c/c++,gis
+student,r,ecosystem models
+student,python,math
+mentor,python,math
+student,php,wikipedia
+mentor,php,wikipedia
+mentor,php,wikipedia
+student,nlp,multimedia
+mentor,nlp,multimedia
+mentor,nlp,multimedia
+student,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,ruby on rails,science
+mentor,ruby on rails,science
+mentor,ruby on rails,science
+mentor,ruby on rails,science
+student,php,wikipedia
+mentor,php,wikipedia
+mentor,python,machine learning
+mentor,video,video processing
+student,c,desktop
+student,javascript,data analytics
+mentor,javascript,data analytics
+mentor,javascript,data analytics
+student,haskell,haskell
+mentor,haskell,haskell
+student,python 3,code analysis
+mentor,python 3,code analysis
+mentor,python 3,code analysis
+student, python,natural language processing
+mentor, python,natural language processing
+mentor, python,natural language processing
+mentor, python,natural language processing
+mentor, java,cloud
+student,dlang,programming languages
+mentor,dlang,programming languages
+student,c99,video
+mentor,c99,video
+student,java,web development
+mentor,java,web development
+mentor,java,web development
+mentor,rust,ide
+student,python,bots
+mentor,python,bots
+student, javascript,gis
+mentor, javascript,gis
+mentor, javascript,gis
+student,javascript,copyleft
+mentor,javascript,copyleft
+mentor,javascript,copyleft
+student,python,bioinformatics
+mentor,python,bioinformatics
+student, c/c++,games
+mentor, c/c++,games
+mentor, c/c++,games
+mentor,python,programming languages
+mentor,python,programming languages
+mentor,python,programming languages
+mentor,python,programming languages
+mentor,python,programming languages
+mentor,python,programming languages
+mentor,python,programming languages
+mentor,python,programming languages
+mentor,ruby on rails,science
+mentor,ruby on rails,science
+student,ruby on rails,science
+mentor,ruby on rails,science
+mentor,ruby on rails,science
+mentor,ruby on rails,science
+mentor,ruby on rails,science
+student, c/c++,physics
+mentor, c/c++,physics
+mentor,java,network biology
+student,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+student,python,visualisation
+mentor,python,visualisation
+mentor,python,visualisation
+mentor,python,software analysis
+student,c++,office suite
+mentor,c++,office suite
+mentor,c++,office suite
+student,python,programming languages
+mentor,python,programming languages
+mentor,python,programming languages
+mentor,python,programming languages
+mentor, c/c++,compilers
+mentor, c/c++,compilers
+mentor, c/c++,gis
+student, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+student,c/c++,ray tracing
+mentor,c/c++,ray tracing
+mentor,c/c++,ray tracing
+student,python,information security
+mentor,python,information security
+student,c99,video
+mentor,c99,video
+student,python 3,machine learning
+mentor,python 3,machine learning
+mentor,python 3,machine learning
+mentor,python 3,machine learning
+student,c,desktop
+mentor,c,desktop
+student,c++,privacy
+student, java,iot
+mentor, java,iot
+student,kubernetes,cloud
+mentor,kubernetes,cloud
+student, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+student,python,engineering
+mentor,python,engineering
+mentor,python,engineering
+student,c,kernel
+mentor,c,kernel
+mentor,java,visual programming
+student, javascript,collaboration
+mentor, javascript,collaboration
+mentor, javascript,collaboration
+mentor, javascript,collaboration
+mentor,c++,computational geometry
+student, java,cloud
+student,python,neuroscience
+mentor,python,neuroscience
+mentor,python,neuroscience
+mentor,python,honeynets
+mentor,r-project,data science
+mentor,r-project,data science
+mentor,r-project,data science
+student,python,community
+mentor,python,community
+mentor,python,community
+student,c++,machine learning
+mentor,c++,machine learning
+student,c++,machine learning
+mentor,c++,machine learning
+student, c/c++,compilers
+student, java,cloud
+mentor, java,cloud
+student,c,web services
+student,mariadb,databases
+mentor,mariadb,databases
+mentor,mariadb,databases
+mentor,c++,privacy
+student,c/c++,ray tracing
+mentor,c/c++,ray tracing
+student,llvm,programming languages and development tools
+mentor,llvm,programming languages and development tools
+mentor,llvm,programming languages and development tools
+student,llvm,programming languages and development tools
+mentor,llvm,programming languages and development tools
+mentor,llvm,programming languages and development tools
+student,python,education
+mentor,python,education
+mentor,python,education
+mentor,python,education
+mentor,php,wikipedia
+mentor,angularjs,education
+mentor,javascript,conference
+mentor,c,version-control
+student,c,3d
+mentor,c,3d
+mentor,c,3d
+student,c,log management
+mentor,c,log management
+student,python 3,code analysis
+student, javascript,collaboration
+mentor, javascript,collaboration
+student,javascript,ogc
+mentor,javascript,ogc
+student,python 3,code analysis
+mentor,python 3,code analysis
+student,c,desktop
+student,python,semantic web
+mentor,python,semantic web
+mentor,python,semantic web
+student,c++,privacy
+student,android,offline access
+mentor,android,offline access
+mentor,android,offline access
+mentor,android,offline access
+student,llvm,programming languages and development tools
+mentor,llvm,programming languages and development tools
+mentor,llvm,programming languages and development tools
+student,python,neuroscience
+student,opengl,2d/3d graphics
+mentor,opengl,2d/3d graphics
+student,java,pragrammer productivity
+mentor,java,pragrammer productivity
+student,c,networking
+mentor,python,education
+mentor,python,education
+student, javascript,collaboration
+mentor, javascript,collaboration
+mentor, javascript,collaboration
+student,c,fonts
+mentor,c,fonts
+mentor,c,fonts
+student,python,bots
+mentor,python,bots
+student,c,printing
+mentor,c,printing
+student,c++,vision
+mentor,c++,vision
+mentor,c++,office suite
+mentor,c++,office suite
+student,javascript,internet freedom
+mentor,javascript,internet freedom
+mentor,python,bots
+student,c++,machine translation
+mentor,c++,machine translation
+student,ros,robotics
+mentor,ros,robotics
+mentor,golang,media server
+mentor,golang,media server
+student,c++,machine translation
+mentor,c++,machine translation
+mentor,c++,machine translation
+mentor,c++,machine translation
+mentor,c/c++,ray tracing
+mentor,c/c++,ray tracing
+student,c++,office suite
+mentor,c++,office suite
+mentor,c++,office suite
+student, java,iot
+student,python,mathematics
+mentor,python,mathematics
+mentor,c++,computational geometry
+student,operating systems,gnu
+mentor,operating systems,gnu
+student,chapel,programming languages
+mentor,chapel,programming languages
+mentor,chapel,programming languages
+mentor,qt,music
+mentor,python,bots
+student,c++,game engine
+student,python,bots
+mentor,python,bots
+student,machine learning,deep learning
+mentor,machine learning,deep learning
+mentor,machine learning,deep learning
+student,python,appsec
+student,python,math
+mentor,python,math
+mentor,python,math
+student,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+student,pharo,web development
+mentor,pharo,web development
+mentor,pharo,web development
+student,javascript,internet freedom
+mentor,haskell,haskell
+mentor,haskell,haskell
+student,haskell,haskell
+mentor,haskell,haskell
+mentor,haskell,haskell
+student,linux,emulator
+mentor,linux,emulator
+student,python,bots
+mentor,python,bots
+student,ruby,scientific computing
+mentor,ruby,scientific computing
+mentor,ruby,scientific computing
+student,python,visualisation
+mentor,python,visualisation
+mentor,python,visualisation
+student,python,math
+mentor,python,math
+student,python,library
+student,python,bots
+mentor,python,bots
+student,c++,machine translation
+mentor,c++,machine translation
+mentor,c++,machine translation
+mentor,c++,machine translation
+student,python,accessibility
+mentor,python,accessibility
+student, c/c++,networking
+mentor, c/c++,networking
+student,r-project,data science
+mentor,r-project,data science
+mentor,r-project,data science
+student, javascript,collaboration
+mentor, javascript,collaboration
+mentor, javascript,collaboration
+student,typescript,visualization
+mentor,typescript,visualization
+mentor,java,creative coding
+student,c,kernel
+mentor,c,kernel
+student, python,digital preservation
+mentor, python,digital preservation
+student,dlang,programming languages
+mentor,dlang,programming languages
+mentor,dlang,programming languages
+mentor,dlang,programming languages
+mentor,dlang,programming languages
+student,java,pragrammer productivity
+mentor,java,pragrammer productivity
+mentor,java,pragrammer productivity
+student,python,scientific computing
+mentor,python,scientific computing
+mentor,python,scientific computing
+student,python,honeynets
+mentor,python,honeynets
+mentor,python,honeynets
+student,ruby,programming languages
+student,c,video
+mentor,c,video
+mentor,c,video
+student,android,fintech
+mentor,android,fintech
+mentor,android,fintech
+mentor,android,fintech
+student,python,high performance computing
+mentor,python,high performance computing
+mentor,python,high performance computing
+mentor,python,high performance computing
+student,reactjs,machine learning
+mentor,reactjs,machine learning
+mentor,reactjs,machine learning
+student, javascript,collaboration
+mentor, javascript,collaboration
+mentor, javascript,collaboration
+student,swift,programming
+mentor,swift,programming
+student,java,genomics
+mentor,java,genomics
+mentor,java,genomics
+student,java,network biology
+mentor,java,network biology
+student,drones,vison
+mentor,drones,vison
+mentor,drones,vison
+student,postgresql,compliance
+mentor,postgresql,compliance
+mentor,postgresql,compliance
+student, c/c++,networking
+mentor, c/c++,networking
+student,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+student,c,3d
+mentor,c,3d
+mentor,c,3d
+mentor, javascript,collaboration
+mentor, javascript,collaboration
+student,rails,web
+mentor,rails,web
+student,python,machine learning
+mentor,python,machine learning
+student,c++,game engine
+mentor,c++,game engine
+student, python, robotics
+mentor, python, robotics
+student,python,computational biology
+mentor,python,computational biology
+student,python,scientific computing
+mentor,python,scientific computing
+mentor,python,scientific computing
+student,java,bioinformatics
+student,java,bioinformatics
+mentor,java,bioinformatics
+student,c,printing
+mentor,c,printing
+mentor,c,printing
+mentor,c,printing
+student,c,printing
+mentor,c,printing
+mentor,c,printing
+mentor,c,printing
+student,kubernetes,cloud
+mentor,kubernetes,cloud
+mentor,kubernetes,cloud
+student,r-project,data science
+mentor,r-project,data science
+mentor,r-project,data science
+student,haskell,haskell
+mentor,haskell,haskell
+student,java,bioinformatics
+mentor,java,bioinformatics
+mentor,java,bioinformatics
+student,python,geo
+mentor,python,geo
+mentor,python,geo
+mentor,python,geo
+mentor,python,geo
+mentor,python,geo
+student,svg,vector graphics
+student,java,cloud
+mentor,java,cloud
+mentor,java,cloud
+student, ros,robotics
+mentor, ros,robotics
+mentor,asynchronous i/o,instant messaging
+student,java,virtual reality
+mentor,java,virtual reality
+student,fpga,image processing
+student,python,music
+mentor,python,music
+student,python,scientific computing
+mentor,python,scientific computing
+mentor,python,scientific computing
+mentor,c++,computational geometry
+student, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+student,c++,privacy
+mentor,c++,privacy
+mentor,c++,privacy
+student,c++,privacy
+mentor,c++,privacy
+mentor,c++,privacy
+student,c++,privacy
+mentor,c++,privacy
+mentor,c++,privacy
+student, c/c++,internet
+mentor, c/c++,internet
+mentor, c/c++,internet
+student, c/c++,virtualization
+mentor, c/c++,virtualization
+mentor,c++,privacy
+mentor,c++,privacy
+student,python,cubesats
+mentor,python,cubesats
+mentor,python,cubesats
+student,postgresql,cloud
+mentor,postgresql,cloud
+mentor,postgresql,cloud
+student,python,information security
+mentor,python,information security
+mentor,python,information security
+student,python,appsec
+mentor, python, robotics
+mentor, python, robotics
+student,c++,search
+mentor,c++,search
+student,c++,vision
+mentor,c++,vision
+mentor,python,programming languages
+mentor,python,programming languages
+mentor,python,programming languages
+mentor,python,programming languages
+student,llvm,programming languages and development tools
+mentor,llvm,programming languages and development tools
+mentor,llvm,programming languages and development tools
+student,python,decentralisation
+mentor,python,decentralisation
+student,c,network
+student,c/c++,ray tracing
+mentor,c/c++,ray tracing
+mentor,c/c++,ray tracing
+student,c++,office suite
+mentor,c++,office suite
+student,c++,office suite
+mentor,c++,office suite
+mentor,c++,office suite
+mentor,java,game
+mentor,java,game
+mentor,java,game
+student,c++11,computer graphics
+mentor,c++11,computer graphics
+mentor,c++11,computer graphics
+mentor,c,web services
+mentor,scala,machine learning
+student,python,geo
+mentor,python,geo
+mentor,python,geo
+mentor,python,geo
+mentor,python,geo
+student,python,geo
+mentor,python,geo
+mentor,python,geo
+mentor,python,geo
+mentor,python,geo
+student,java,ide
+mentor,java,ide
+student, javascript,collaboration
+mentor, javascript,collaboration
+mentor, javascript,collaboration
+student,verilog,hardware
+mentor,verilog,hardware
+student,c,network
+mentor,c,network
+mentor, java,science and medicine
+student,lua,programming languages
+mentor,lua,programming languages
+student,python,cubesats
+mentor,python,cubesats
+mentor,python,cubesats
+student, c/c++,virtualization
+mentor,python,data integration
+student, python,web applications
+mentor, python,web applications
+mentor,php,natural language processing
+mentor,php,natural language processing
+mentor,php,natural language processing
+student,tcl,package management
+mentor,tcl,package management
+student,java,creative coding
+mentor,java,creative coding
+mentor, c/c++,compilers
+mentor, c/c++,compilers
+student,php,wikipedia
+mentor,php,wikipedia
+mentor,php,wikipedia
+student, java,cloud
+mentor, java,cloud
+student,c++,computational geometry
+mentor,c++,computational geometry
+mentor,c++,computational geometry
+student,c,version-control
+mentor,c,version-control
+student,c,firmware
+mentor,c,firmware
+mentor,c,firmware
+mentor,c,firmware
+student,python,information security
+student,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+student,java,web development
+mentor,java,web development
+mentor,ruby on rails,science
+mentor,ruby on rails,science
+mentor,ruby on rails,science
+mentor,ruby on rails,science
+student,ruby on rails,science
+mentor,ruby on rails,science
+mentor,ruby on rails,science
+student,ruby on rails,science
+mentor,ruby on rails,science
+mentor,ruby on rails,science
+mentor,ruby on rails,science
+student,ruby on rails,science
+mentor,ruby on rails,science
+mentor,ruby on rails,science
+student, c/c++,gis
+mentor, c/c++,gis
+student,python,bots
+mentor,python,bots
+mentor,python,decentralisation
+student,drones,vison
+mentor,drones,vison
+mentor,drones,vison
+mentor,python,neuroscience
+mentor,r,ecosystem models
+mentor,java,game
+mentor,java,game
+mentor,java,game
+mentor,java,game
+mentor,java,game
+student,python,bioinformatics
+mentor,python,bioinformatics
+mentor,verilog,hardware
+mentor,verilog,hardware
+mentor,verilog,hardware
+student,android,fintech
+mentor,android,fintech
+mentor,android,fintech
+student,android,fintech
+mentor,android,fintech
+mentor,android,fintech
+student,android,fintech
+mentor,android,fintech
+mentor,android,fintech
+student,android,fintech
+mentor,android,fintech
+mentor,android,fintech
+student,java,bioinformatics
+student,ros,robotics
+student, ros,robotics
+mentor, ros,robotics
+mentor, ros,robotics
+mentor, ros,robotics
+mentor, ros,robotics
+student,c,network security
+mentor,c,network security
+student, c/c++,games
+mentor, c/c++,games
+student,python,programming languages
+mentor,python,programming languages
+mentor,python,programming languages
+student,python,programming languages
+mentor,python,programming languages
+mentor,python,programming languages
+student,c++,machine learning
+mentor,c++,machine learning
+student,python,programming languages
+mentor,python,programming languages
+student,python,programming languages
+mentor,python,programming languages
+student,python,information security
+mentor,python,information security
+mentor,python,information security
+student,android,fintech
+mentor,android,fintech
+mentor,python,neuroscience
+student,java,ide
+mentor,java,ide
+student,python,neuroscience
+mentor,python,neuroscience
+student,c,video
+mentor,c,video
+student,c++ libraries c++11 c++14 c++17 c++20,c++ libraries c++ standard
+mentor,c++ libraries c++11 c++14 c++17 c++20,c++ libraries c++ standard
+student,java,game
+mentor,java,game
+mentor,java,game
+mentor,java,game
+student, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+mentor,r-project,data science
+student, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+student,haskell,haskell
+mentor,haskell,haskell
+mentor,haskell,haskell
+student,c++,chemistry
+mentor,c++,chemistry
+mentor,c++,chemistry
+mentor,c++,game engine
+student, java,continuous integration
+mentor, java,continuous integration
+mentor, java,continuous integration
+mentor, java,continuous integration
+student,kubernetes,cloud
+mentor,kubernetes,cloud
+mentor,php,natural language processing
+mentor,php,natural language processing
+mentor,php,natural language processing
+student, apache spark,semantic web
+mentor, apache spark,semantic web
+mentor, apache spark,semantic web
+mentor,nlp,multimedia
+mentor,nlp,multimedia
+student,python,computer vision
+mentor,python,computer vision
+mentor,python,computer vision
+mentor,c,editor
+mentor,python,music
+mentor,julia,technical computing
+student,julia,technical computing
+mentor,julia,technical computing
+mentor,julia,technical computing
+student,java,networking
+student,python 3,filmmaking
+mentor,python,networking
+mentor,python,networking
+student, javascript, education
+mentor, javascript, education
+mentor,python,computer vision
+student,r-project,data science
+mentor,r-project,data science
+mentor,r-project,data science
+mentor,r-project,data science
+mentor,r-project,data science
+mentor,r-project,data science
+mentor,r-project,data science
+student,c++,machine learning
+mentor,c++,machine learning
+mentor,c++,machine learning
+student,java,network biology
+mentor,java,network biology
+mentor,java,network biology
+mentor,pharo,web development
+mentor,pharo,web development
+mentor,pharo,web development
+student,lua,programming languages
+student, python, robotics
+mentor, python, robotics
+mentor, python, robotics
+student,kubernetes,cloud
+mentor,kubernetes,cloud
+mentor,kubernetes,cloud
+student,php,web
+mentor,php,web
+mentor,php,web
+student,golang,media server
+mentor,golang,media server
+mentor,golang,media server
+student, c/c++,gis
+mentor, c/c++,gis
+mentor, c/c++,gis
+mentor, c/c++,gis
+student,python,geo
+mentor,python,geo
+mentor,python,geo
+mentor,python,geo
+student,python 3,code analysis
+mentor,python 3,code analysis
+mentor,python 3,code analysis
+student,pharo,web development
+mentor,pharo,web development
+mentor,pharo,web development
+mentor,c++,privacy
+mentor,java,testing
+mentor,java,testing
+student, java,science and medicine
+mentor, java,science and medicine
+mentor, java,science and medicine
+student,pharo,web development
+mentor,pharo,web development
+mentor,pharo,web development
+student,python,information security
+mentor,python,information security
+mentor,python,information security
+mentor,python,information security
+mentor, c/c++,gnss
+student,python,bots
+mentor,python,bots
+student, c/c++,physics
+mentor, c/c++,physics
+mentor,python,programming languages
+mentor,python,programming languages
+student,python,programming languages
+mentor,python,programming languages
+mentor,python,programming languages
+mentor,java,pragrammer productivity
+mentor,c,video
+mentor,c,video
+student, java,cloud
+mentor, java,cloud
+student,python 3,astronomy
+mentor,python 3,astronomy
+mentor,nlp,multimedia
+mentor,nlp,multimedia
+student,java,genomics
+student,c++,privacy
+mentor,c++,privacy
+mentor,c++,privacy
+mentor,c++,privacy
+mentor,c++,privacy
+mentor,android,fintech
+mentor,android,fintech
+student,python,open government
+student,python,engineering
+mentor,python,engineering
+mentor,python,engineering
+student,c++,media
+mentor,c++,media
+mentor,python,information security
+mentor,python,information security
+student, java,science and medicine
+mentor, java,science and medicine
+mentor, java,science and medicine
+student, java,science and medicine
+mentor, java,science and medicine
+student, javascript,gis
+student,c,network
+mentor,c,network
+mentor,c,network
+student,python,honeynets
+mentor,python,honeynets
+mentor,python,honeynets
+student,python,honeynets
+mentor,python,honeynets
+mentor,python,honeynets
+student,c,vpn
+mentor,c,vpn
+mentor,c,vpn
+student, c/c++,gnss
+mentor, c/c++,gnss
+student,r-project,data science
+mentor,r-project,data science
+mentor,r-project,data science
+student, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+student,verilog,electronic design tools
+mentor,verilog,electronic design tools
+mentor,java,ide
+mentor,docker,cloud
+mentor,docker,cloud
+student,python,cubesats
+mentor,python,cubesats
+mentor,python,cubesats
+student,python,cubesats
+mentor,python,cubesats
+mentor,python,cubesats
+student,python,earth observation
+mentor,python,earth observation
+student,python,scientific computing
+mentor,python,scientific computing
+student,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+student,c,3d
+mentor,c,3d
+student,javascript,programming languages and development tools
+mentor,javascript,programming languages and development tools
+mentor,javascript,programming languages and development tools
+mentor,javascript,programming languages and development tools
+student,python,appsec
+mentor,python,appsec
+student,python,appsec
+mentor,python,appsec
+mentor,python,appsec
+mentor,python,appsec
+student,python,appsec
+mentor,python,appsec
+mentor,python,appsec
+student,python,appsec
+mentor,python,appsec
+mentor,python,appsec
+student,python,appsec
+mentor,python,appsec
+student,java,creative coding
+mentor,java,creative coding
+mentor,java,creative coding
+mentor,git, operating system
+mentor,git, operating system
+student, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+mentor,python,license-scan
+mentor,python,license-scan
+mentor,php,web
+mentor,php,web
+student,qt,music
+mentor,python,programming languages
+student,python,programming languages
+mentor,python,programming languages
+student,r-project,data science
+student,java,testing
+mentor,java,testing
+mentor,java,testing
+student, c/c++,compilers
+mentor, c/c++,compilers
+student, java,science and medicine
+mentor, java,science and medicine
+student, java,science and medicine
+mentor, java,science and medicine
+mentor, java,science and medicine
+student,python,high performance computing
+mentor,python,high performance computing
+mentor,python,high performance computing
+student, python, robotics
+student,julia,technical computing
+mentor,julia,technical computing
+mentor,julia,technical computing
+mentor,python,education
+mentor,python,education
+mentor,python,education
+student,c,web services
+mentor,c,web services
+mentor,c,web services
+mentor,c,web services
+mentor,c,web services
+student,postgresql,data
+mentor,postgresql,data
+student,tcl,package management
+mentor,tcl,package management
+mentor,tcl,package management
+student,python 3,filmmaking
+mentor,python 3,filmmaking
+student,python,programming languages
+mentor,python,programming languages
+mentor,python,programming languages
+student,python,programming languages
+mentor,python,programming languages
+mentor,python,programming languages
+student,python 3,code analysis
+student,c,log management
+mentor,c,log management
+mentor, java,continuous integration
+mentor, java,continuous integration
+mentor, java,continuous integration
+mentor, java,continuous integration
+student, python,web applications
+mentor, python,web applications
+mentor, java,cloud
+mentor,java,visual programming
+mentor,java,visual programming
+student,asynchronous i/o,instant messaging
+mentor,asynchronous i/o,instant messaging
+student,c,desktop
+mentor,c,desktop
+mentor,c++,privacy
+mentor,c++,privacy
+student,python,bots
+mentor,python,bots
+student,ai,vision
+mentor,ai,vision
+student,ai,vision
+mentor,ai,vision
+mentor,ai,vision
+mentor,ai,vision
+student,ai,vision
+mentor,ai,vision
+mentor,ai,vision
+student,python,cloud databases
+student,python,cloud databases
+mentor,c++,privacy
+mentor,c++,privacy
+mentor,c++,privacy
+mentor,c++,privacy
+student,python,robotics
+mentor,python,robotics
+mentor,python,license-scan
+student,python,education
+mentor,python,education
+mentor,python,education
+mentor,c++,privacy
+mentor,c++,privacy
+student,c,kernel
+mentor,c,kernel
+mentor,c,kernel
+mentor, python,open source
+mentor, python,open source
+mentor,c++,desktop
+student,c,kernel
+mentor,c,kernel
+mentor,c,kernel
+mentor,c/c++,real time
+mentor,c/c++,real time
+mentor,c/c++,real time
+mentor,c++,machine learning
+mentor,c++,machine learning
+student,c++11,computer graphics
+mentor,c++11,computer graphics
+mentor,c++11,computer graphics
+mentor, apache spark,semantic web
+mentor, apache spark,semantic web
+student,python,math
+mentor,python,math
+mentor,python,math
+student,java,creative coding
+mentor,java,creative coding
+student,python,neuroscience
+student,python,neuroscience
+mentor,python,neuroscience
+mentor,python,neuroscience
+student,c,network security
+mentor,c,network security
+student,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,r-project,data science
+mentor,python,neuroscience
+student,c++,chemistry
+mentor,c++,chemistry
+mentor,c++,chemistry
+mentor,kubernetes,cloud
+student,haskell,haskell
+mentor,haskell,haskell
+mentor,haskell,haskell
+student, c/c++,physics
+mentor, c/c++,physics
+student,ruby on rails,web
+student,mariadb,databases
+mentor,mariadb,databases
+mentor,mariadb,databases
+student,c,printing
+mentor,c,printing
+student,ruby on rails,web
+student, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+mentor,php,wikipedia
+mentor,php,wikipedia
+student,asynchronous i/o,instant messaging
+mentor,asynchronous i/o,instant messaging
+student,raspberry pi,real time
+mentor,raspberry pi,real time
+mentor,raspberry pi,real time
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+student,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+student, javascript,gis
+mentor, javascript,gis
+mentor, javascript,gis
+student,haskell,haskell
+mentor,haskell,haskell
+mentor,haskell,haskell
+student, ros,robotics
+mentor, ros,robotics
+mentor, ros,robotics
+mentor,python,machine learning
+mentor,python,programming languages
+mentor,python,programming languages
+mentor, c/c++,physics
+mentor, c/c++,physics
+student,python,programming languages
+mentor,python,programming languages
+mentor,python,programming languages
+mentor,python,programming languages
+mentor,python,geo
+student,c,network
+mentor,c,network
+student, c/c++,gis
+mentor, c/c++,gis
+mentor, c/c++,gis
+mentor,c++,machine learning
+student,julia,technical computing
+mentor,julia,technical computing
+student,linux,software defined networking
+mentor,linux,software defined networking
+mentor,python,scientific computing
+mentor,python,scientific computing
+mentor,python,scientific computing
+mentor,python,scientific computing
+student,r-project,data science
+mentor,r-project,data science
+mentor,python,mathematics
+student,java,ide
+mentor,java,ide
+mentor,python,documentation
+mentor,python,documentation
+student, c/c++,physics
+mentor, c/c++,physics
+mentor,machine learning,deep learning
+student,python,education
+mentor,python,education
+mentor,python,education
+mentor,python,education
+student,python,music
+mentor,python,music
+student,python,scientific computing
+student,c++,machine translation
+mentor,c++,machine translation
+mentor,c++,machine translation
+mentor,c++,machine translation
+student,ruby,programming languages
+mentor,ruby,programming languages
+student, java,iot
+mentor,nlp,multimedia
+mentor,nlp,multimedia
+mentor,nlp,multimedia
+mentor,nlp,multimedia
+student,c,web services
+mentor,c,web services
+mentor,c,web services
+mentor,c,web services
+mentor,c,web services
+student,python,bots
+mentor,python,bots
+student,python,mathematics
+mentor,python,mathematics
+mentor,mysql,database optimization
+mentor,mysql,database optimization
+student,php,mysql
+student,c++,privacy
+mentor,c++,privacy
+student,dlang,programming languages
+mentor,dlang,programming languages
+mentor,dlang,programming languages
+student,python,bots
+mentor,python,bots
+student, python,open source
+mentor, python,open source
+mentor, python,open source
+student,julia,technical computing
+mentor,julia,technical computing
+student, python,containers
+mentor, python,containers
+mentor, python,containers
+mentor,python,decentralisation
+student,python,visualisation
+mentor,python,visualisation
+mentor,python,visualisation
+student, java,continuous integration
+mentor, java,continuous integration
+mentor, java,continuous integration
+mentor, java,continuous integration
+mentor, java,continuous integration
+student,javascript,internet freedom
+mentor,javascript,internet freedom
+student,dlang,programming languages
+mentor,dlang,programming languages
+mentor,python,robotics
+mentor,python,robotics
+student,gnu make,embedded systems
+mentor,gnu make,embedded systems
+mentor,gnu make,embedded systems
+student,java,cloud
+student,php,education
+mentor,php,education
+mentor,php,education
+mentor,php,education
+mentor,php,education
+mentor, java,genomics
+student,java,game
+mentor,java,game
+mentor,java,game
+mentor,java,game
+mentor,java,game
+mentor,python,scientific computing
+mentor,python,scientific computing
+mentor,python,scientific computing
+student,c,network
+mentor,c,network
+mentor,c,network
+mentor,javascript,copyleft
+mentor,javascript,copyleft
+mentor,python,programming languages
+mentor,python,programming languages
+student,python,bots
+mentor,python,bots
+mentor,python,bots
+student,c++,privacy
+student,c++,game engine
+mentor,c++,game engine
+student, python, robotics
+mentor, python, robotics
+mentor, python, robotics
+student, javascript,collaboration
+mentor, javascript,collaboration
+mentor, javascript,collaboration
+student, java,continuous integration
+mentor, java,continuous integration
+mentor, java,continuous integration
+student,python,robotics
+mentor,python,robotics
+mentor,python,robotics
+mentor,python,robotics
+student,java,ide
+mentor,java,ide
+mentor,java,ide
+student, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+mentor,python,neuroscience
+mentor,r-project,data science
+mentor,r-project,data science
+student,windows,build tools
+mentor,windows,build tools
+student,c,desktop
+mentor,c,desktop
+student,python,information security
+mentor,python,information security
+mentor,python,information security
+student,android,fintech
+student,python,programming languages
+mentor,python,programming languages
+mentor,python,programming languages
+student,python,programming languages
+mentor,python,programming languages
+student,python,programming languages
+mentor,python,programming languages
+mentor,python,programming languages
+mentor,java,cloud
+mentor,java,cloud
+student,python,documentation
+student,java,creative coding
+mentor,java,creative coding
+student, python,containers
+mentor,r-project,data science
+mentor,r-project,data science
+mentor,r-project,data science
+student,nlp,multimedia
+mentor,nlp,multimedia
+mentor,nlp,multimedia
+student,ruby on rails,science
+mentor,ruby on rails,science
+mentor,ruby on rails,science
+mentor,ruby on rails,science
+mentor,ruby on rails,science
+mentor,ruby on rails,science
+student,r-project,data science
+mentor,r-project,data science
+mentor,r-project,data science
+mentor,r-project,data science
+student,python,information security
+mentor,python,information security
+mentor,python,information security
+mentor,python,information security
+mentor,python,information security
+student, c/c++,virtualization
+student, javascript,collaboration
+mentor, javascript,collaboration
+mentor, javascript,collaboration
+student,typescript,visualization
+mentor,typescript,visualization
+mentor,golang,service mesh
+student,r-project,data science
+mentor,r-project,data science
+mentor,r-project,data science
+mentor,r-project,data science
+student, javascript,collaboration
+mentor, javascript,collaboration
+student,python,information security
+mentor,python,information security
+mentor,python,information security
+mentor,python,information security
+student,javascript,internet freedom
+mentor,javascript,internet freedom
+mentor, c/c++,audio
+mentor, c/c++,audio
+student, c/c++,physics
+mentor, c/c++,physics
+student,python,neuroscience
+mentor,python,neuroscience
+student,java,network biology
+mentor,java,network biology
+mentor,python,semantic web
+mentor,python,semantic web
+student,python,honeynets
+mentor,python,honeynets
+mentor,python,honeynets
+student, python,digital preservation
+mentor, python,digital preservation
+mentor, python,digital preservation
+student,python,math
+mentor,python,math
+mentor,python,math
+student, java,cloud
+mentor, java,cloud
+mentor, java,cloud
+student,java,genomics
+mentor,java,genomics
+student,postgresql,compliance
+student, python,open source
+mentor, python,open source
+mentor, python,open source
+student, python,open source
+student, python,open source
+mentor, python,open source
+mentor,nlp,multimedia
+student,nlp,multimedia
+mentor,nlp,multimedia
+mentor,nlp,multimedia
+student,c++,search
+mentor,c++,search
+student,python,honeynets
+mentor,python,honeynets
+student,android,mobile
+mentor,android,mobile
+mentor,java,creative coding
+mentor,java,creative coding
+student,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,scala,electronic voting
+mentor,windows,build tools
+student,r-project,data science
+mentor,r-project,data science
+mentor,r-project,data science
+student,c++,game engine
+mentor,c++,game engine
+student,php,crm
+mentor,php,crm
+mentor,php,crm
+mentor,php,crm
+student,angularjs,education
+mentor,angularjs,education
+student,c++,privacy
+mentor,c++,privacy
+mentor, python, robotics
+mentor, python, robotics
+student,android,mobile
+mentor,android,mobile
+student,c++,machine learning
+mentor,c++,machine learning
+student,ros,robotics
+mentor,ros,robotics
+mentor,ros,robotics
+student,linux,emulator
+mentor,linux,emulator
+student, java,education
+mentor, java,education
+mentor, java,education
+student,java,testing
+mentor,java,testing
+mentor,java,testing
+student,javascript,internet freedom
+mentor,golang,service mesh
+student, java,cloud
+mentor,python,community
+mentor,kubernetes,cloud
+mentor,python 3,code analysis
+mentor,python 3,code analysis
+mentor,python 3,code analysis
+mentor,python,visualisation
+student,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+mentor,javascript,artificial intelligence
+student, java,cloud
+student,python,scientific computing
+student,ai,vision
+mentor,operating systems,gnu
+student, java,genomics
+student, android,end user application
+mentor, android,end user application
+mentor, c/c++,networking
+mentor, c/c++,networking
+student,python,computer vision
+mentor,python,computer vision
+mentor,machine learning,deep learning
+mentor,machine learning,deep learning
+student,machine learning,deep learning
+mentor,machine learning,deep learning
+student,machine learning,deep learning
+mentor,machine learning,deep learning
+student,machine learning,deep learning
+mentor,machine learning,deep learning
+student,machine learning,deep learning
+student,python,information security
+mentor,python,information security
+student,python,information security
+mentor,python,information security
+mentor,python,information security
+mentor,python,information security
+student,java,game
+mentor,java,game
+mentor,java,game
+mentor, python, robotics
+mentor, python, robotics
+mentor,java,visual programming
+mentor,java,visual programming
+student, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+student,machine learning,deep learning
+student,c++,search
+student,lua,scripting languages
+mentor,lua,scripting languages
+student,python,robotics
+mentor,python,robotics
+mentor,java,game
+mentor,java,game
+student, javascript,collaboration
+mentor, javascript,collaboration
+student,python,robotics
+mentor,python,robotics
+mentor,python,robotics
+mentor,python,robotics
+student,opengl,graphics stack
+student,tokio_rs,rust
+mentor,tokio_rs,rust
+student,php,wikipedia
+mentor,php,wikipedia
+mentor,php,wikipedia
+mentor,php,wikipedia
+student, javascript,gis
+student, apache spark,semantic web
+mentor, apache spark,semantic web
+mentor, apache spark,semantic web
+mentor, c/c++,physics
+mentor, c/c++,physics
+student,julia,technical computing
+mentor,julia,technical computing
+student,c++,chemistry
+mentor,c++,chemistry
+mentor, apache spark,semantic web
+mentor,r-project,data science
+student,c,editor
+student,javascript,internet freedom
+student,c++,machine translation
+mentor,c++,machine translation
+mentor,c++,machine translation
+mentor,c++,machine translation
+student,php,wikipedia
+mentor,php,wikipedia
+student,chapel,programming languages
+mentor,chapel,programming languages
+student,c,network
+mentor,c,network
+student,c++,machine translation
+mentor,c++,machine translation
+mentor,c++,machine translation
+student,javascript,genomics
+mentor,javascript,genomics
+mentor,javascript,genomics
+student,android,fintech
+mentor,android,fintech
+student,java,bioinformatics
+mentor,java,bioinformatics
+mentor,java,bioinformatics
+student, python,open source
+mentor, python,open source
+mentor, python,open source
+student,python,robotics
+mentor,python,robotics
+mentor,python,robotics
+mentor,haskell,haskell
+mentor,haskell,haskell
+mentor,fpga,image processing
+student, java,science and medicine
+mentor, java,science and medicine
+mentor, java,science and medicine
+student, android,end user application
+mentor, android,end user application
+student,java,creative coding
+mentor,java,creative coding
+mentor,perl,genomics
+mentor,perl,genomics
+student,java,network biology
+mentor,java,network biology
+mentor,java,network biology
+student, c/c++,physics
+mentor, c/c++,physics
+mentor, c/c++,physics
+student,c++,animation
+mentor,c++,animation
+mentor,c++,animation
+student, python,natural language processing
+mentor, python,natural language processing
+mentor, python,natural language processing
+mentor, c/c++,virtualization
