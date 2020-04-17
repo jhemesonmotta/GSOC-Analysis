@@ -138,6 +138,14 @@ pctMulheres4 = (nrow(gsoc_data %>% filter(Year == "2019" & Gender=="female")) / 
 pctMulheres4
 ```
 
+#### Porcentagem de participantes 2016-2019:
+
+```{r}
+pctMulheres4 = (nrow(gsoc_data %>% filter(Gender=="female")) / nrow(gsoc_data)) * 100
+
+pctMulheres4
+```
+
 ```{r}
 pctHomens = (nrow(gsoc_data %>% filter(Year == "2019" & Gender=="male")) / nrow(gsoc_data %>% filter(Year == "2019"))) * 100
 
@@ -224,5 +232,14 @@ barplot(tail(topicos.tb, 20), las=2, cex.names=0.5)
 topicos.tb <- sort(topicos.tb)
 
 barplot(tail(topicos.tb, 5), las=1, cex.names=0.8)
+```
+
+#### quantidade de participantes por ano
+```{r}
+qtd2016 = nrow(gsoc_data %>% filter(Year == "2016"))
+qtd2017 = nrow(gsoc_data %>% filter(Year == "2017"))
+qtd2018 = nrow(gsoc_data %>% filter(Year == "2018"))
+qtd2019 = nrow(gsoc_data %>% filter(Year == "2019"))
+
 ```
 
