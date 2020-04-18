@@ -1,0 +1,10 @@
+ios > mobile applications,1,94.47
+mobile applications > ios,1,94.47
+ios; mentor > mobile applications,1,94.47
+mentor; mobile applications > ios,1,94.47
+mentor; qt > desktop applications,0.7,77.53
+desktop applications > qt,1,74.69
+mentor; desktop applications > qt,1,74.69
+student; data science > r-project,0.76,41.37
+mentor; r-project > data science,1,41.17
+student; r-project > data science,1,41.17

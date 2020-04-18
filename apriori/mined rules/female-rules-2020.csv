@@ -1,23 +1,23 @@
 Predicado,Conclus�o,Confian�a,Lift
-artificial intelligence,javascript,0.84,12.67
-cubesats,python,1,4.04
-desktop applications,qt,1,74.69
 ios,mobile applications,1,94.47
 mobile applications,ios,1,94.47
-web development,java,0.7,5.97
-mentor; artificial intelligence,javascript,0.88,13.36
-machine translation; mentor,c++,1,12.07
-cubesats; mentor,python,1,4.04
-mentor; data science,r-project,0.75,41.08
-mentor; r-project,data science,1,41.17
-student; data science,r-project,0.76,41.37
-student; r-project,data science,1,41.17
-mentor; desktop applications,qt,1,74.69
-mentor; qt,desktop applications,0.7,77.53
-mentor; event management,python,1,4.04
-mentor; hardware,python,0.9,3.66
-student; image analysis,python,0.94,3.82
-mentor; information security,python,1,4.04
 ios; mentor,mobile applications,1,94.47
 mentor; mobile applications,ios,1,94.47
+mentor; qt,desktop applications,0.7,77.53
+desktop applications,qt,1,74.69
+mentor; desktop applications,qt,1,74.69
+student; data science,r-project,0.76,41.37
+mentor; r-project,data science,1,41.17
+student; r-project,data science,1,41.17
+mentor; data science,r-project,0.75,41.08
+mentor; artificial intelligence,javascript,0.88,13.36
+artificial intelligence,javascript,0.84,12.67
+machine translation; mentor,c++,1,12.07
 mentor; web development,java,0.78,6.7
+web development,java,0.7,5.97
+cubesats,python,1,4.04
+cubesats; mentor,python,1,4.04
+mentor; event management,python,1,4.04
+mentor; information security,python,1,4.04
+student; image analysis,python,0.94,3.82
+mentor; hardware,python,0.9,3.66

@@ -1,25 +1,25 @@
 Predicado,Conclus�o,Confian�a,Lift
-physics,c/c++,1.0,54.63461538461538
-privacy,c++,0.8253968253968254,9.74356944994064
-kubernetes,cloud,1.0,37.88
-electronic voting,scala,1.0,43.04545454545455
-games,java,0.7719298245614035,6.932726970217957
-network biology,java,1.0,8.981032665964173
-logic,scala,1.0,43.04545454545455
-statistical computing,python,1.0,4.324200913242009
-artificial intelligence; mentor,javascript,0.7142857142857143,14.957879957879959
-physics; mentor,c/c++,1.0,54.63461538461538
-mentor; machine translation,c++,1.0,11.80470914127424
-data science; mentor,r-project,0.8296703296703298,34.83389270827695
-r-project; mentor,data science,1.0,34.50607287449393
-data science; student,r-project,0.7999999999999999,33.58817733990147
-r-project; student,data science,1.0,34.50607287449393
-electronic voting; mentor,scala,1.0,43.04545454545455
-event management; mentor,python,1.0,4.324200913242009
-hardware; mentor,python,0.7674418604651162,3.318572793883402
-information security; mentor,python,1.0,4.324200913242009
-network biology; mentor,java,1.0,8.981032665964173
-web development; mentor,java,0.7034883720930232,6.318052049893399
-logic; mentor,scala,1.0,43.04545454545455
-programming languages; mentor,python,0.7045454545454546,3.046596097965961
-statistical computing; mentor,python,1.0,4.324200913242009
+physics,c/c++,1,54.63461538
+physics; mentor,c/c++,1,54.63461538
+electronic voting,scala,1,43.04545455
+logic,scala,1,43.04545455
+electronic voting; mentor,scala,1,43.04545455
+logic; mentor,scala,1,43.04545455
+kubernetes,cloud,1,37.88
+data science; mentor,r-project,0.82967033,34.83389271
+r-project; mentor,data science,1,34.50607287
+r-project; student,data science,1,34.50607287
+data science; student,r-project,0.8,33.58817734
+artificial intelligence; mentor,javascript,0.714285714,14.95787996
+mentor; machine translation,c++,1,11.80470914
+privacy,c++,0.825396825,9.74356945
+network biology,java,1,8.981032666
+network biology; mentor,java,1,8.981032666
+games,java,0.771929825,6.93272697
+web development; mentor,java,0.703488372,6.31805205
+statistical computing,python,1,4.324200913
+event management; mentor,python,1,4.324200913
+information security; mentor,python,1,4.324200913
+statistical computing; mentor,python,1,4.324200913
+hardware; mentor,python,0.76744186,3.318572794
+programming languages; mentor,python,0.704545455,3.046596098

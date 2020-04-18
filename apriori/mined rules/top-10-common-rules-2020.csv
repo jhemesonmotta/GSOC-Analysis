@@ -1,0 +1,10 @@
+kernel > c,1,14.37
+machine translation > c++,1,11.94
+office suite > c++,1,11.93
+creative coding > java,1,8.73
+r > data science,0.74,28.13
+data science > r-project,0.81,37.84
+r-project > data science,1,37.84
+event management > python,1,4.18
+hardware > python,0.8,3.36
+image analysis > python,0.93,3.89

@@ -1,31 +1,16 @@
 Predicado,Conclus�o,Confian�a,Lift
-kernel,c,1,15.67
-kernel,c,1.0,13.072085889570552
-machine translation,c++,1,12.07
-machine translation,c++,1.0,11.80470914127424
-office suite,c++,1.0,11.80470914127424
-office suite,c++,1,12.07
-creative coding,java,1,8.49
-creative coding,java,1.0,8.981032665964173
-r,data science,0.73,30.09
-r,data science,0.7586206896551724,26.17702080134022
-data science,r-project,0.8,41.18
-data science,r-project,0.8218623481781377,34.50607287449393
-r-project,data science,1.0,34.50607287449393
-r-project,data science,1,41.18
-event management,python,1.0,4.324200913242009
-event management,python,1,4.04
-hardware,python,0.7413793103448276,3.2058730908518345
-hardware,python,0.87,3.53
-image analysis,python,0.93,3.78
-image analysis,python,0.9252336448598131,4.000896172065037
-information security,python,1,4.04
-information security,python,1.0,4.324200913242009
-scientific computing,python,0.9368421052631578,4.051093487142514
-scientific computing,python,0.96,3.89
-kernel; mentor,c,1.0,13.072085889570552
-kernel; mentor,c,1,15.66
-mentor; image analysis,python,0.9473684210526316,4.09661139149243
-mentor; image analysis,python,0.93,3.77
-scientific computing; mentor,python,0.95,3.84
-scientific computing; mentor,python,0.9393939393939394,4.062128130621281
+kernel,c,1,14.37
+machine translation,c++,1,11.94
+office suite,c++,1,11.93
+creative coding,java,1,8.73
+r,data science,0.74,28.13
+data science,r-project,0.81,37.84
+r-project,data science,1,37.84
+event management,python,1,4.18
+hardware,python,0.8,3.36
+image analysis,python,0.93,3.89
+information security,python,1,4.18
+scientific computing,python,0.95,3.97
+kernel; mentor,c,1,14.36
+mentor; image analysis,python,0.93,3.93
+scientific computing; mentor,python,0.94,3.95
