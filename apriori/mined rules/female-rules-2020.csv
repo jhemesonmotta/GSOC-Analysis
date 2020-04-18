@@ -1,0 +1,38 @@
+Predicado,Conclus∆o,Confianáa,Lift
+artificial intelligence,javascript,0.84,12.67
+kernel,c,1,15.67
+machine translation,c++,1,12.07
+office suite,c++,1,12.07
+creative coding,java,1,8.49
+cubesats,python,1,4.04
+r,data science,0.73,30.09
+data science,r-project,0.8,41.18
+r-project,data science,1,41.18
+desktop applications,qt,1,74.69
+event management,python,1,4.04
+hardware,python,0.87,3.53
+image analysis,python,0.93,3.78
+information security,python,1,4.04
+ios,mobile applications,1,94.47
+mobile applications,ios,1,94.47
+web development,java,0.7,5.97
+scientific computing,python,0.96,3.89
+mentor; artificial intelligence,javascript,0.88,13.36
+kernel; mentor,c,1,15.66
+machine translation; mentor,c++,1,12.07
+cubesats; mentor,python,1,4.04
+mentor; data science,r-project,0.75,41.08
+mentor; r-project,data science,1,41.17
+student; data science,r-project,0.76,41.37
+student; r-project,data science,1,41.17
+mentor; desktop applications,qt,1,74.69
+mentor; qt,desktop applications,0.7,77.53
+mentor; event management,python,1,4.04
+mentor; hardware,python,0.9,3.66
+mentor; image analysis,python,0.93,3.77
+student; image analysis,python,0.94,3.82
+mentor; information security,python,1,4.04
+ios; mentor,mobile applications,1,94.47
+mentor; mobile applications,ios,1,94.47
+mentor; web development,java,0.78,6.7
+scientific computing; mentor,python,0.95,3.84
