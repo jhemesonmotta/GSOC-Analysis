@@ -1,10 +1,10 @@
-kernel > c,1,14.37
-machine translation > c++,1,11.94
-office suite > c++,1,11.93
-creative coding > java,1,8.73
-r > data science,0.74,28.13
-data science > r-project,0.81,37.84
-r-project > data science,1,37.84
+kernel > c,0.81,37.84
+data science > r-project,1,37.84
+r-project > data science,0.74,28.13
+r > data science,1,14.37
+kernel > c,1,14.36
+kernel; mentor > c,1,11.94
+machine translation > C++,1,11.93
+office suite > c++,1,8.73
+creative coding > java,1,4.18
 event management > python,1,4.18
-hardware > python,0.8,3.36
-image analysis > python,0.93,3.89

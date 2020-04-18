@@ -1,16 +1,16 @@
 Predicado,Conclus�o,Confian�a,Lift
+data science,r-project,0.81,37.84
+r-project,data science,1,37.84
+r,data science,0.74,28.13
 kernel,c,1,14.37
+kernel; mentor,c,1,14.36
 machine translation,c++,1,11.94
 office suite,c++,1,11.93
 creative coding,java,1,8.73
-r,data science,0.74,28.13
-data science,r-project,0.81,37.84
-r-project,data science,1,37.84
 event management,python,1,4.18
-hardware,python,0.8,3.36
-image analysis,python,0.93,3.89
 information security,python,1,4.18
 scientific computing,python,0.95,3.97
-kernel; mentor,c,1,14.36
-mentor; image analysis,python,0.93,3.93
 scientific computing; mentor,python,0.94,3.95
+mentor; image analysis,python,0.93,3.93
+image analysis,python,0.93,3.89
+hardware,python,0.8,3.36
