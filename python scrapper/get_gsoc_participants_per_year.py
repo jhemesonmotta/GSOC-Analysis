@@ -4,7 +4,7 @@
 from bs4 import BeautifulSoup
 import re
 import requests
-import pandas as pd
+import pandas as pandas
 
 
 # In[9]:
@@ -67,7 +67,7 @@ def get_procject_urls(year):
 
 def get_specific_project_data(year,url_specific_project):
     line = []
-    global df_projects
+    global contributors_list
     specific_project_page = session.get(url_specific_project)
     page_specific_project = (BeautifulSoup(specific_project_page.content, 'html.parser'))
     card_specific_project = page_specific_project.find('md-card')
@@ -95,7 +95,7 @@ def get_specific_project_data(year,url_specific_project):
 
     print(line)
     
-    df_projects = df_projects.append(pd.Series(line, index=None), ignore_index=True)
+    contributors_list = contributors_list.append(pandas.Series(line, index=None), ignore_index=True)
 
     
     list_mentors = html_card_specific_project.findAll("li")
@@ -112,8 +112,8 @@ def get_specific_project_data(year,url_specific_project):
         line.append(technology_and_topic[1])
 
         print(line)
-        df_projects = df_projects.append(pd.Series(line, index=None ), ignore_index=True)
-    return df_projects
+        contributors_list = contributors_list.append(pandas.Series(line, index=None ), ignore_index=True)
+    return contributors_list
 
 # In[6]:
 
@@ -137,15 +137,24 @@ def get_technologies_and_topics(company_link):
 
 # In[7]:
 
-df_projects = pd.DataFrame(index=None)
+# declare a new pandas DataFrame
+contributors_list = pandas.DataFrame(index=None)
+
+# iterates the list of years in which we want to extract data from
 for year in years:
+    
+    # the first part of the mining is storing the URL of
+    # all the projects of the referred year
     links_projects = get_procject_urls(year)
+    
+    # the second part is iterating the list of projects
+    # and retrieving specific data for each project
     for link in links_projects:
         get_specific_project_data(year,link)
 
-# In[8]:
-
-df_projects.to_csv(file_csv,index=False)
+# after all the information is extracted,
+# it is transformed into a csv file
+contributors_list.to_csv(file_csv,index=False)
 
 
 
