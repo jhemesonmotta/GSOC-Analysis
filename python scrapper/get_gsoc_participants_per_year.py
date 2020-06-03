@@ -39,26 +39,37 @@ def get_num_pages(url):
 
 def get_procject_urls(year):
     
-    #counter = 0 
+    # declares an empty list
     list_link_project = []
-    url_master_gsof_ = 'https://summerofcode.withgoogle.com/archive/' + year + '/projects/'
-    num_pages = get_num_pages(url_master_gsof_)
-
     
+    # generates URL for the year
+    url_master_gsoc_ = 'https://summerofcode.withgoogle.com/archive/' + year + '/projects/'
+    
+    # scrapes the number of pages of projects for that year
+    num_pages = get_num_pages(url_master_gsoc_)
+
+    # iterates all the pages of projects
     for num in range(1,int(num_pages)):
+        # request and store the whole html page of projects
         session = requests.session()
-        url_master_gsof_ = 'https://summerofcode.withgoogle.com/archive/' + year + '/projects/?page=' + str(num)
-        response_master = session.get(url_master_gsof_)
-        lista_projetos = (BeautifulSoup(response_master.content, 'html.parser'))
+        url_master_gsoc_ = 'https://summerofcode.withgoogle.com/archive/' + year + '/projects/?page=' + str(num)
+        response_master = session.get(url_master_gsoc_)
+        html_page = (BeautifulSoup(response_master.content, 'html.parser'))
+        
+        # regex to identify elements representing projects
         regex_classe = re.compile(r'\bmd-padding archive-project-card__header\b')
-        list_projects_master = lista_projetos.findAll("div", {"class": regex_classe})
+        
+        # find projects according to the regex
+        list_projects_master = html_page.findAll("div", {"class": regex_classe})
         url_archive = 'https://summerofcode.withgoogle.com'
         
-        
+        # iterates the list of project to get internal specific links
         for i in list_projects_master:
             i = i.find('a', href=True)['href']
             url_project_specific = str(url_archive) + str(i)
             list_link_project.append(url_project_specific)
+            
+    # returns the list of project specific urls
     return list_link_project
 
 
