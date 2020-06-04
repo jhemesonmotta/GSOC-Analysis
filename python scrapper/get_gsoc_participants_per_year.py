@@ -107,7 +107,7 @@ def get_specific_project_data(year,url_specific_project):
     global contributors_li
     
     # request and store the whole html
-    specific_project_page = session.get(url_specific_project)
+    project_page = session.get(url_specific_project)
     
     # sends raw data and receives the data formated in an array
     # Param 1: raw data
@@ -118,11 +118,16 @@ def get_specific_project_data(year,url_specific_project):
     # appends the line on the global list
     contributors_list = contributors_list.append(pandas.Series(line, index=None), ignore_index=True)
     
+    # converts
+    page_parsed = (BeautifulSoup(project_page.content, 'html.parser'))
+    card = page_parsed.find('md-card')
+    card_parsed = (BeautifulSoup(str(card), 'html.parser'))
+    
     # scrapes mentors information from the content
-    list_mentors = html_card_specific_project.findAll("li")
+    list_mentors = card_parsed.findAll("li")
     for mentor in list_mentors:
         # sends raw data and receives the data formated in an array
-        line = html_to_line(specific_project_page, 'mentor', mentor.get_text())
+        line = html_to_line(page_parsed, 'mentor', mentor.get_text())
         # appends the line on the global list
         contributors_list = contributors_list.append(pandas.Series(line, index=None ), ignore_index=True)
     # returns the whole list
