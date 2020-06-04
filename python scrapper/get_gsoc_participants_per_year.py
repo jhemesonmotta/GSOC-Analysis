@@ -73,57 +73,59 @@ def get_procject_urls(year):
     return list_link_project
 
 
-# In[5]:
-
-
-def get_specific_project_data(year,url_specific_project):
+def html_to_line(specific_project_page, person_type, person_name):
     line = []
-    global contributors_list
-    specific_project_page = session.get(url_specific_project)
     page_specific_project = (BeautifulSoup(specific_project_page.content, 'html.parser'))
     card_specific_project = page_specific_project.find('md-card')
     html_card_specific_project = (BeautifulSoup(str(card_specific_project), 'html.parser'))
-    
+
+    # scrapes student information from the content
+    project_name = page_specific_project.find('title').get_text()
     company = html_card_specific_project.find("a")["aria-label"]
     company_website = html_card_specific_project.find("a")["href"]
-    
-    student_name = re.findall('<h4 class="org__meta-heading">Student</h4>\n<div>(.*)</div>',str(card_specific_project),re.MULTILINE)
     github_project_url = html_card_specific_project.find("a", {"class": "md-button md-primary"})["href"]
-    project_name = page_specific_project.find('title').get_text()
-    
+    student_name = re.findall('<h4 class="org__meta-heading">Student</h4>\n<div>(.*)</div>',str(card_specific_project),re.MULTILINE)
+    # gets main technology and main topic of the project
+    technology_and_topic = get_technologies_and_topics(company_website)
+    # stores the retrieved information on the "line"
     line.append(year)
     line.append(company)
-    
-    line.append(str(student_name[0]))
+    if person_type == 'mentor':
+        line.append(person_name)
+    else:
+        line.append(str(student_name[0]))
     line.append(project_name)
-    line.append('student')
+    line.append(person_type)
     line.append(github_project_url)
-    
-    technology_and_topic = get_technologies_and_topics(company_website)
-    
     line.append(technology_and_topic[0])
     line.append(technology_and_topic[1])
-
-    print(line)
+    return line
     
+def get_specific_project_data(year,url_specific_project):
+    # declares a new array for the line
+    line = []
+    global contributors_li
+    
+    # request and store the whole html
+    specific_project_page = session.get(url_specific_project)
+    
+    # sends raw data and receives the data formated in an array
+    # Param 1: raw data
+    # Param 2: person type (student or mentor)
+    # Param 3: person name (in case it's mentor)
+    line = html_to_line(specific_project_page, 'student', '')
+    
+    # appends the line on the global list
     contributors_list = contributors_list.append(pandas.Series(line, index=None), ignore_index=True)
-
     
+    # scrapes mentors information from the content
     list_mentors = html_card_specific_project.findAll("li")
     for mentor in list_mentors:
-        line = []
-        line.append(year)
-        line.append(company)
-        
-        line.append(mentor.get_text())
-        line.append(project_name)
-        line.append('mentor')
-        line.append(github_project_url)
-        line.append(technology_and_topic[0])
-        line.append(technology_and_topic[1])
-
-        print(line)
+        # sends raw data and receives the data formated in an array
+        line = html_to_line(specific_project_page, 'mentor', mentor.get_text())
+        # appends the line on the global list
         contributors_list = contributors_list.append(pandas.Series(line, index=None ), ignore_index=True)
+    # returns the whole list
     return contributors_list
 
 # In[6]:
