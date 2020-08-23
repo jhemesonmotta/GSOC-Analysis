@@ -1,6 +1,6 @@
 ---
 title: "Obversações GSOC"
-author: "Jhemeson Silva Mota"
+author: "blind"
 date: "15 de Abril de 2020"
 output:
   html_document:
